@@ -10,6 +10,7 @@
 ![Self taught](https://img.shields.io/badge/self--taught_since-2010ish-0d0d0d?style=for-the-badge&labelColor=00E5FF&color=0d0d0d)
 ![Mode](https://img.shields.io/badge/mode-build_%2F_break_%2F_fix-0d0d0d?style=for-the-badge&labelColor=FF2D55&color=0d0d0d)
 ![Coffee](https://img.shields.io/badge/fuel-coffee-0d0d0d?style=for-the-badge&labelColor=6e40c9&color=0d0d0d)
+![Views](https://komarev.com/ghpvc/?username=KippieG&style=for-the-badge&color=C8F135&labelColor=0d0d0d&label=views)
 
 </div>
 
@@ -88,13 +89,21 @@ random side quests       ██████████████████�
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=flat-square&logo=swift&logoColor=white)
+![UIKit](https://img.shields.io/badge/UIKit-2396F3?style=flat-square&logo=apple&logoColor=white)
 ![AVFoundation](https://img.shields.io/badge/AVFoundation-111111?style=flat-square&logo=apple&logoColor=white)
 ![MapKit](https://img.shields.io/badge/MapKit-34C759?style=flat-square&logo=apple&logoColor=white)
+![StoreKit](https://img.shields.io/badge/StoreKit_2-34C759?style=flat-square&logo=apple&logoColor=white)
+![Core ML](https://img.shields.io/badge/Core_ML-FA7343?style=flat-square&logo=apple&logoColor=white)
+![TestFlight](https://img.shields.io/badge/TestFlight-0D96F6?style=flat-square&logo=apple&logoColor=white)
 
 ### Backend, Data and Automation
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![.NET MAUI](https://img.shields.io/badge/.NET_MAUI-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![SignalR](https://img.shields.io/badge/SignalR-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+![CQRS](https://img.shields.io/badge/CQRS-222222?style=flat-square&logoColor=white)
+![DDD](https://img.shields.io/badge/Domain--Driven_Design-222222?style=flat-square&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=black)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
@@ -103,6 +112,10 @@ random side quests       ██████████████████�
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=flat-square&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=flat-square&logo=python&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Webhooks](https://img.shields.io/badge/Webhooks-FF6C37?style=flat-square&logoColor=white)
 
 ### AI, Scraping and Product Work
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
@@ -114,6 +127,23 @@ random side quests       ██████████████████�
 ![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
 ![BPMN](https://img.shields.io/badge/BPMN-0d0d0d?style=flat-square&logoColor=white)
 ![BRD](https://img.shields.io/badge/BRD_%2F_specs-0d0d0d?style=flat-square&logoColor=white)
+![MoSCoW](https://img.shields.io/badge/MoSCoW-0d0d0d?style=flat-square&logoColor=white)
+![User Stories](https://img.shields.io/badge/User_Stories-0d0d0d?style=flat-square&logoColor=white)
+![KPI Dashboards](https://img.shields.io/badge/KPI_Dashboards-0d0d0d?style=flat-square&logoColor=white)
+![EDI](https://img.shields.io/badge/EDI-0d0d0d?style=flat-square&logoColor=white)
+![Oracle APEX](https://img.shields.io/badge/Oracle_APEX-F80000?style=flat-square&logo=oracle&logoColor=white)
+
+### Product, BA and Office
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white)
+![Miro](https://img.shields.io/badge/Miro-FFD02F?style=flat-square&logo=miro&logoColor=black)
+![Word](https://img.shields.io/badge/Word-2B579A?style=flat-square&logo=microsoftword&logoColor=white)
+![PowerPoint](https://img.shields.io/badge/PowerPoint-B7472A?style=flat-square&logo=microsoftpowerpoint&logoColor=white)
+![Teams](https://img.shields.io/badge/Teams-6264A7?style=flat-square&logo=microsoftteams&logoColor=white)
+![SharePoint](https://img.shields.io/badge/SharePoint-0078D4?style=flat-square&logo=microsoftsharepoint&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power_Query-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
 
 ### Infra and Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -124,6 +154,13 @@ random side quests       ██████████████████�
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white)
+![Homebrew](https://img.shields.io/badge/Homebrew-FBB040?style=flat-square&logo=homebrew&logoColor=black)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![RevenueCat](https://img.shields.io/badge/RevenueCat-F25A2B?style=flat-square&logo=revenuecat&logoColor=white)
+![App Store Connect](https://img.shields.io/badge/App_Store_Connect-0D96F6?style=flat-square&logo=appstore&logoColor=white)
 
 ---
 
