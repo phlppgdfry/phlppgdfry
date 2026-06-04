@@ -60,9 +60,7 @@ random side quests       ██████████████████�
 
 | Area | Repos |
 |---|---|
-| Port / logistics intelligence | [`zeebrugge-logistics-intel`](https://github.com/KippieG/zeebrugge-logistics-intel) · [`eco-match-engine`](https://github.com/KippieG/eco-match-engine) · [`delay-dna`](https://github.com/KippieG/delay-dna) · [`ecs-ecoload`](https://github.com/KippieG/ecs-ecoload) |
-| Terminal / yard concepts | [`YardExx`](https://github.com/KippieG/YardExx) · [`YardEx`](https://github.com/KippieG/YardEx) · [`portpulse`](https://github.com/KippieG/portpulse) · private YardExx platform experiments |
-| Ops / compliance / analysis | [`ecs-digital-audit`](https://github.com/KippieG/ecs-digital-audit) · [`gdpr-compliance-checker`](https://github.com/KippieG/gdpr-compliance-checker) · [`warehouse-optimization-advisor`](https://github.com/KippieG/warehouse-optimization-advisor) |
+| Logistics | Port / logistics intelligence | [`zeebrugge-logistics-intel`](https://github.com/KippieG/zeebrugge-logistics-intel) · [`eco-match-engine`](https://github.com/KippieG/eco-match-engine) · [`delay-dna`](https://github.com/KippieG/delay-dna) · [`ecs-ecoload`](https://github.com/KippieG/ecs-ecoload) | Port Intelligence | [`Logistics-Master Hub`](https://github.com/KippieG/Logistics-Master) — The ultimate port suite (YardExx, Ecoload, TOS-Sim, Research) |
 | Apps and utilities | [`MirrorMate-App`](https://github.com/KippieG/MirrorMate-App) · private Swift/macOS/iOS experiments |
 | Developer / AI experiments | [`git-personality-profiler`](https://github.com/KippieG/git-personality-profiler) · [`LocalMind`](https://github.com/KippieG/LocalMind) · private DevDNA experiments |
 | BA case studies | [`breakfast-delivery-platform`](https://github.com/KippieG/breakfast-delivery-platform) · [`customer-churn-analysis`](https://github.com/KippieG/customer-churn-analysis) · [`port-logistics-optimization`](https://github.com/KippieG/port-logistics-optimization) · [`gymlabb-platform-spec`](https://github.com/KippieG/gymlabb-platform-spec) |
