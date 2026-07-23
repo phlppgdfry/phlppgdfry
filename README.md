@@ -10,7 +10,7 @@
 ![Self taught](https://img.shields.io/badge/self--taught_since-2010ish-0d0d0d?style=for-the-badge&labelColor=00E5FF&color=0d0d0d)
 ![Mode](https://img.shields.io/badge/mode-build_%2F_break_%2F_fix-0d0d0d?style=for-the-badge&labelColor=FF2D55&color=0d0d0d)
 ![Coffee](https://img.shields.io/badge/fuel-coffee-0d0d0d?style=for-the-badge&labelColor=6e40c9&color=0d0d0d)
-![Views](https://komarev.com/ghpvc/?username=KippieG&style=for-the-badge&color=C8F135&labelColor=0d0d0d&label=views)
+![Views](https://komarev.com/ghpvc/?username=phlppgdfry&style=for-the-badge&color=C8F135&labelColor=0d0d0d&label=views)
 
 </div>
 
@@ -60,10 +60,10 @@ random side quests       ██████████████████�
 
 | Area | Repos |
 |---|---|
-| Logistics | Port / logistics intelligence | [`zeebrugge-logistics-intel`](https://github.com/KippieG/zeebrugge-logistics-intel) · [`eco-match-engine`](https://github.com/KippieG/eco-match-engine) · [`delay-dna`](https://github.com/KippieG/delay-dna) · [`ecs-ecoload`](https://github.com/KippieG/ecs-ecoload) | Port Intelligence | [`Logistics-Master Hub`](https://github.com/KippieG/Logistics-Master) — The ultimate port suite (YardExx, Ecoload, TOS-Sim, Research) |
-| Apps and utilities | [`MirrorMate-App`](https://github.com/KippieG/MirrorMate-App) · private Swift/macOS/iOS experiments |
-| Developer / AI experiments | [`git-personality-profiler`](https://github.com/KippieG/git-personality-profiler) · [`LocalMind`](https://github.com/KippieG/LocalMind) · private DevDNA experiments |
-| BA case studies | [`breakfast-delivery-platform`](https://github.com/KippieG/breakfast-delivery-platform) · [`customer-churn-analysis`](https://github.com/KippieG/customer-churn-analysis) · [`port-logistics-optimization`](https://github.com/KippieG/port-logistics-optimization) · [`gymlabb-platform-spec`](https://github.com/KippieG/gymlabb-platform-spec) |
+| Logistics | Port / logistics intelligence | [`zeebrugge-logistics-intel`](https://github.com/phlppgdfry/zeebrugge-logistics-intel) · [`eco-match-engine`](https://github.com/phlppgdfry/eco-match-engine) · [`delay-dna`](https://github.com/phlppgdfry/delay-dna) · [`ecs-ecoload`](https://github.com/phlppgdfry/ecs-ecoload) | Port Intelligence | [`Logistics-Master Hub`](https://github.com/phlppgdfry/Logistics-Master) — The ultimate port suite (YardExx, Ecoload, TOS-Sim, Research) |
+| Apps and utilities | [`MirrorMate-App`](https://github.com/phlppgdfry/MirrorMate-App) · private Swift/macOS/iOS experiments |
+| Developer / AI experiments | [`git-personality-profiler`](https://github.com/phlppgdfry/git-personality-profiler) · [`LocalMind`](https://github.com/phlppgdfry/LocalMind) · private DevDNA experiments |
+| BA case studies | [`breakfast-delivery-platform`](https://github.com/phlppgdfry/breakfast-delivery-platform) · [`customer-churn-analysis`](https://github.com/phlppgdfry/customer-churn-analysis) · [`port-logistics-optimization`](https://github.com/phlppgdfry/port-logistics-optimization) · [`gymlabb-platform-spec`](https://github.com/phlppgdfry/gymlabb-platform-spec) |
 
 ---
 

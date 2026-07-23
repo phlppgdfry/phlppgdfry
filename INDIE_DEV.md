@@ -292,11 +292,11 @@ when_i_am_not_coding:
 
 <div align="center">
 
-![Philippe's GitHub Stats](https://github-readme-stats.vercel.app/api?username=KippieG&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=060608&title_color=C8F135&icon_color=C8F135&text_color=f0ede6&ring_color=C8F135)
+![Philippe's GitHub Stats](https://github-readme-stats.vercel.app/api?username=phlppgdfry&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=060608&title_color=C8F135&icon_color=C8F135&text_color=f0ede6&ring_color=C8F135)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KippieG&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=060608&title_color=C8F135&text_color=f0ede6)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=phlppgdfry&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=060608&title_color=C8F135&text_color=f0ede6)
 
-![GitHub Streak](https://streak-stats.demolab.com?user=KippieG&theme=dark&hide_border=true&background=060608&stroke=C8F135&ring=C8F135&fire=FF2D55&currStreakLabel=C8F135&sideLabels=C8F135&dates=888888)
+![GitHub Streak](https://streak-stats.demolab.com?user=phlppgdfry&theme=dark&hide_border=true&background=060608&stroke=C8F135&ring=C8F135&fire=FF2D55&currStreakLabel=C8F135&sideLabels=C8F135&dates=888888)
 
 </div>
 

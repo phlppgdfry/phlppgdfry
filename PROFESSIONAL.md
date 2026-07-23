@@ -216,9 +216,9 @@ languages:
 
 <div align="center">
 
-![Philippe's GitHub Stats](https://github-readme-stats.vercel.app/api?username=KippieG&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=bc8cff&icon_color=bc8cff&text_color=e8e8e8)
+![Philippe's GitHub Stats](https://github-readme-stats.vercel.app/api?username=phlppgdfry&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=bc8cff&icon_color=bc8cff&text_color=e8e8e8)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KippieG&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=bc8cff&text_color=e8e8e8)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=phlppgdfry&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=bc8cff&text_color=e8e8e8)
 
 </div>
 
