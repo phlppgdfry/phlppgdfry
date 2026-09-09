@@ -8,7 +8,13 @@
   <a href="mailto:philippe.godfroy@hotmail.com"><img src="https://img.shields.io/badge/SAY_HELLO-163448?style=for-the-badge&logo=gmail&logoColor=55ddec" alt="Email Philippe"></a>
 </p>
 
-<p align="center"><b><a href="#start-here">Start here</a> · <a href="#featured-projects">Featured projects</a> · <a href="#project-arcade">Project arcade</a> · <a href="#the-toolbox">Toolbox</a> · <a href="#dispatch-log">Activity</a> · <a href="#off-duty">Off duty</a></b></p>
+<p align="center">
+<a href="https://github.com/phlppgdfry/ClickTrack/releases"><img src="https://img.shields.io/badge/DOWNLOAD_A_MAC_APP-c8f135?style=for-the-badge&logo=apple&logoColor=0b1119" alt="Download a Mac app — ClickTrack releases"></a>
+<a href="https://phlppgdfry.github.io/terminal-operating-system-sim/"><img src="https://img.shields.io/badge/TRY_A_TERMINAL_SIM-55ddec?style=for-the-badge&logoColor=0b1119" alt="Try a browser demo — terminal operations simulator"></a>
+<a href="assets/docurelay-demo.gif"><img src="https://img.shields.io/badge/WATCH_A_WORKFLOW-bc9cff?style=for-the-badge&logoColor=0b1119" alt="Watch the existing DocuRelay Android walkthrough"></a>
+</p>
+
+<p align="center"><b><a href="#explore-the-harbor">Harbor map</a> · <a href="#featured-projects">Featured projects</a> · <a href="#project-arcade">Project arcade</a> · <a href="#side-quest-of-the-month">Side quest</a> · <a href="#dispatch-log">Activity</a> · <a href="#off-duty">Off duty</a></b></p>
 
 ## Hi, I'm Philippe 👋
 
@@ -36,111 +42,131 @@ philippe:
 | 🌊 The human behind the repositories | [Off-duty Philippe](PERSONAL.md) |
 | 🗂 Everything I've put on the public shelf | [Full project catalog](PROJECTS.md) |
 
-<p align="center"><img src="assets/harbor.gif" width="100%" alt="Animated container crane shipping ideas, data, apps and tools"></p>
-<p align="center"><sub>Yes, I took “shipping software” literally.</sub></p>
+## Explore the harbor
+
+Four districts, one slightly overcommitted builder. **Click a district to enter.**
+
+<a href="INDIE_DEV.md"><img src="assets/district-apps.svg" width="100%" alt="App Dock — explore Mac apps and indie development"></a>
+<a href="PROJECTS.md#data-engineering--analytics"><img src="assets/district-data.svg" width="100%" alt="Data Warehouse — explore pipelines and analytics"></a>
+<a href="PROJECTS.md#ai-developer-tools--learning"><img src="assets/district-ai.svg" width="100%" alt="AI Lab — explore local models and developer experiments"></a>
+<a href="PROJECTS.md#ports-logistics--operations"><img src="assets/district-operations.svg" width="100%" alt="Operations Tower — explore ports and operational software"></a>
+
+[App Dock](INDIE_DEV.md) · [Data Warehouse](PROJECTS.md#data-engineering--analytics) · [AI Lab](PROJECTS.md#ai-developer-tools--learning) · [Operations Tower](PROJECTS.md#ports-logistics--operations)
 
 ## Featured projects
 
-Six doors into the work. Each repository explains its current scope and how to explore it.
-
-<table>
-<tr>
-<td width="50%" valign="top">
+Six projects, each with a different job to do. Open the screenshots and build notes for a closer look.
 
 ### 🚢 Logistics Master
 
-**The port and supply-chain portfolio.**
+<a href="https://github.com/phlppgdfry/Logistics-Master"><img src="assets/cover-logistics.svg" width="100%" alt="🚢 Logistics Master — Portfolio hub · Prototypes and research"></a>
 
 A central hub for terminal simulations, yard capacity, shipment visibility, empty-mileage tools and operational intelligence.
 
-`Portfolio hub` · `Prototypes + research`
+**Portfolio hub · Prototypes and research.** [Explore the hub →](https://github.com/phlppgdfry/Logistics-Master)
 
-**Look inside:** domain modelling, dashboards, APIs and business-analysis case studies.
-
-[Explore the hub →](https://github.com/phlppgdfry/Logistics-Master)
-
-</td>
-<td width="50%" valign="top">
 
 ### 🧭 PortOps AI
 
-**Which vehicles need attention, and why?**
+<a href="https://github.com/phlppgdfry/portops-ai"><img src="assets/cover-portops.svg" width="100%" alt="🧭 PortOps AI — Working local prototype · C# / .NET"></a>
 
-An operations agent for investigating RoRo readiness, conflicting evidence and booking exceptions, with reviewable action drafts.
+Investigate RoRo readiness, conflicting evidence and booking exceptions. Prepare an action draft for human review.
 
-`Working local prototype` · `C# / .NET`
+**Working local prototype · C# / .NET.** [Explore the prototype →](https://github.com/phlppgdfry/portops-ai)
 
-**Look inside:** source-backed explanations, scoped tools and human approval. Real-model validation and production integration remain planned.
+<details>
+<summary><b>Behind the build: an answer needs a source</b></summary>
 
-[Investigate PortOps →](https://github.com/phlppgdfry/portops-ai)
+**Problem:** an operational record can look complete while pickup readiness, loading readiness and the latest observations disagree.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+**Design choice:** separate readiness rules, keep source IDs and timestamps visible, and make proposed actions reviewable. A confident sentence should never erase conflicting evidence.
+
+**Next iteration:** real-model validation, production identity and integration. The current implementation uses synthetic scenarios and simulated delivery.
+
+[Read the project decisions](https://github.com/phlppgdfry/portops-ai/blob/main/docs/architecture.md)
+
+</details>
 
 ### 🖱 ClickTrack
 
-**A private dashboard for your Mac activity.**
+<a href="https://github.com/phlppgdfry/ClickTrack"><img src="assets/cover-clicktrack.svg" width="100%" alt="🖱 ClickTrack — macOS app · Direct download"></a>
 
-Clicks, keystroke counts, scrolls, focus rhythm and daily patterns — with data kept on your Mac.
+Local analytics for clicks, keystroke counts, scrolls and focus rhythm. Data stays on your Mac.
 
-<a href="https://github.com/phlppgdfry/ClickTrack"><img src="assets/clicktrack.png" width="400" alt="ClickTrack Today dashboard with local input and focus statistics"></a>
+**macOS app · Direct download.** [Downloads →](https://github.com/phlppgdfry/ClickTrack/releases) · [Project →](https://github.com/phlppgdfry/ClickTrack)
 
-`macOS app` · `Direct download`
+<details>
+<summary><b>View the real product screenshot</b></summary>
 
-[Project →](https://github.com/phlppgdfry/ClickTrack) · [Downloads →](https://github.com/phlppgdfry/ClickTrack/releases)
+<img src="assets/clicktrack.png" width="720" alt="🖱 ClickTrack — screenshot from the project repository">
 
-</td>
-<td width="50%" valign="top">
+</details>
+
+<details>
+<summary><b>Behind the build: the release is its own product</b></summary>
+
+**Problem:** source code and the version a user downloads can move at different speeds.
+
+**Design choice:** make the public notarized v1.0.2 legacy Pro build distinguishable from the newer license-key workstream.
+
+**Next iteration:** a fresh signed and notarized archive for the license-key flow before it replaces the public download. Packaging belongs on the roadmap alongside features.
+
+[Read the release notes](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2)
+
+</details>
 
 ### 🪞 MirrorMate
 
-**A quick mirror, one shortcut away.**
+<a href="https://github.com/phlppgdfry/MirrorMate-App"><img src="assets/cover-mirrormate.svg" width="100%" alt="🪞 MirrorMate — macOS app · SwiftUI / AVFoundation"></a>
 
-A native Mac camera utility with a floating mirror, keyboard shortcuts, appearance controls and a focused interface.
+A floating Mac camera mirror with keyboard shortcuts and appearance controls.
 
-<a href="https://github.com/phlppgdfry/MirrorMate-App"><img src="assets/mirrormate.png" width="400" alt="MirrorMate native macOS appearance settings"></a>
+**macOS app · SwiftUI / AVFoundation.** [App Store →](https://apps.apple.com/us/app/mirrormate-menubar-mirror/id6752225278) · [Showcase →](https://github.com/phlppgdfry/MirrorMate-App)
 
-`macOS app` · `SwiftUI / AVFoundation`
+<details>
+<summary><b>View the real product screenshot</b></summary>
 
-[Showcase →](https://github.com/phlppgdfry/MirrorMate-App) · [App Store →](https://apps.apple.com/us/app/mirrormate-menubar-mirror/id6752225278)
+<img src="assets/mirrormate.png" width="720" alt="🪞 MirrorMate — screenshot from the project repository">
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+</details>
+
 
 ### 🏗 Fabric Data Platform
 
-**From raw events to a useful data model.**
+<a href="https://github.com/phlppgdfry/fabric-lottery-data-platform"><img src="assets/cover-fabric.svg" width="100%" alt="🏗 Fabric Data Platform — Early scaffold · Data engineering learning lab"></a>
 
-A Microsoft Fabric learning project using synthetic lottery-style data to explore Bronze/Silver/Gold layers, PySpark, SQL and dbt.
+A staged Microsoft Fabric learning build: synthetic events, Bronze/Silver/Gold layers, PySpark, SQL and dbt.
 
-`Early scaffold / learning lab`
+**Early scaffold · Data engineering learning lab.** [Architecture and build plan →](https://github.com/phlppgdfry/fabric-lottery-data-platform)
 
-**Look inside:** the architecture, data model and staged build plan. An evolving data-engineering portfolio.
-
-[Follow the build →](https://github.com/phlppgdfry/fabric-lottery-data-platform)
-
-</td>
-<td width="50%" valign="top">
 
 ### 📱 DocuRelay Field
 
-**Field documentation that survives going offline.**
+<a href="https://github.com/phlppgdfry/docurelay-field"><img src="assets/cover-docurelay.svg" width="100%" alt="📱 DocuRelay Field — Working portfolio demo · .NET MAUI / SQLite"></a>
 
-A .NET MAUI portfolio app with a durable SQLite upload queue, an ASP.NET Core API and a local processing workflow.
+Capture evidence offline, keep it in a durable SQLite queue, then sync to an ASP.NET Core processing workflow.
 
-`Working portfolio demo` · `.NET MAUI / SQLite`
+**Working portfolio demo · .NET MAUI / SQLite.** [Project →](https://github.com/phlppgdfry/docurelay-field) · [Existing walkthrough →](assets/docurelay-demo.gif)
 
-**Look inside:** verified Android emulator flow, retry handling and the API-to-worker journey.
+<details>
+<summary><b>View the real product screenshot</b></summary>
 
-[Explore the workflow →](https://github.com/phlppgdfry/docurelay-field) · [Watch the demo →](assets/docurelay-demo.gif)
+<img src="assets/docurelay.png" width="300" alt="📱 DocuRelay Field — screenshot from the project repository">
 
-</td>
-</tr>
-</table>
+</details>
+
+<details>
+<summary><b>Behind the build: offline is a workflow, not an error message</b></summary>
+
+**Problem:** a field worker must be able to retain evidence when connectivity disappears.
+
+**Design choice:** durable SQLite state, an explicit upload queue and visible retry/processing status. Android runtime testing also exposed a query translation issue that needed a real fix.
+
+**Next iteration:** physical-device checks and iOS validation. The recorded Android emulator flow is the evidence for the current milestone.
+
+[Read the runtime evidence](https://github.com/phlppgdfry/docurelay-field/blob/main/docs/runtime-validation.md)
+
+</details>
 
 ## On the workbench 🔧
 
@@ -151,8 +177,8 @@ A .NET MAUI portfolio app with a durable SQLite upload queue, an ASP.NET Core AP
 | [DocuRelay Field](https://github.com/phlppgdfry/docurelay-field) | Offline mobile state, reliable processing and Azure architecture |
 
 <p align="center">
-  <img src="assets/terminal.gif" width="48%" alt="Animated terminal: find the messy workflow, build a working slice, test awkward cases">
-  <img src="assets/pipeline.gif" width="48%" alt="Animated Bronze, Silver and Gold data pipeline">
+  <img src="assets/terminal.gif" width="460" alt="Animated terminal: find the messy workflow, build a working slice, test awkward cases">
+  <img src="assets/pipeline.gif" width="460" alt="Animated Bronze, Silver and Gold data pipeline">
 </p>
 
 ## Project arcade
@@ -214,23 +240,93 @@ Product: BPMN, BRDs, acceptance criteria, MoSCoW, Figma, Jira, Confluence and Mi
 
 I'm interested in the details that make a tool usable: what happens offline, where an answer came from, who approves an action, what a KPI actually means, and what a user should do when something fails.
 
-<table>
-<tr>
-<td width="50%" align="center" valign="top">
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="310" alt="Animated developer working at a desk">
-<br><sub><b>“I'll just make a quick prototype.”</b></sub>
-</td>
-<td width="50%" align="center" valign="top">
-<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="310" alt="Animated coding scene">
-<br><sub><b>Several repositories later.</b></sub>
-</td>
-</tr>
-</table>
+<p align="center"><img src="assets/harbor.gif" width="100%" alt="Animated crane shipping ideas, data and apps"></p>
+<p align="center"><sub>Shipping software: now with a literal shipping department.</sub></p>
+
+## Side quest of the month
+
+**September 2026 · Git Personality Profiler 🧬**
+
+What happens when commit history gets a cyberpunk identity crisis? A Python tool that explores commit patterns, vocabulary and playful developer archetypes.
+
+<img src="assets/radar.gif" width="460" alt="Side-quest radar finding the next interesting experiment">
+
+**Try this:** run it against one of your own repositories and inspect the report. The archetypes are entertainment, not a scientific personality assessment.
+
+```bash
+git clone https://github.com/phlppgdfry/git-personality-profiler.git
+cd git-personality-profiler
+python3 profiler.py /path/to/your/repository
+```
+
+[Explore the side quest →](https://github.com/phlppgdfry/git-personality-profiler) · [Installation notes →](https://github.com/phlppgdfry/git-personality-profiler#-installation)
+
+## Things I learned the hard way
+
+- **An ORM expression still has to become valid SQL.** DocuRelay's enum `ToString()` translation needed to become a query parameter.
+- **A feature in source is not a feature in the download.** ClickTrack's release status must follow the actual distributed artifact.
+- **“Ready” needs a definition.** PortOps separates pickup readiness, loading readiness and conflicting observations.
+- **A demo needs an honest data story.** The Fabric build starts with explicitly synthetic events and a visible implementation plan.
+
+[Read the engineering notes and their evidence →](BUILD_NOTES.md)
+
+## Museum of questionable decisions
+
+<details>
+<summary><b>🐛 Exhibit 01 — “Surely SQLite speaks ToString.”</b></summary>
+
+It did not. A DocuRelay query translated an enum conversion into a SQLite function that did not exist. The fix passed the enum value as a parameter, followed by a fresh Android runtime check.
+
+<img src="assets/query-plot-twist.gif" width="600" alt="Illustrated debugging loop: unsupported SQLite function becomes a query parameter">
+
+**Souvenir:** inspect the generated query before questioning reality.
+
+[The documented bug and validation](https://github.com/phlppgdfry/docurelay-field/blob/main/docs/runtime-validation.md)
+
+</details>
+
+<details>
+<summary><b>📦 Exhibit 02 — “It works in the source code.”</b></summary>
+
+A useful sentence for developers. Less useful to the person downloading a ZIP. ClickTrack's public release and newer license-key implementation need distinct status labels until the new archive is ready.
+
+<img src="assets/release-checklist.gif" width="600" alt="Illustrated release sequence: build, sign, notarize, release">
+
+**Souvenir:** the ZIP gets the final vote.
+
+[The release notes](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2)
+
+</details>
+
+<details>
+<summary><b>🧭 Exhibit 03 — “Let's just add one ready flag.”</b></summary>
+
+Pickup-ready and loading-ready are different questions. Add stale observations and conflicting records, and a single green badge starts doing a suspicious amount of work.
+
+**Souvenir:** a small Boolean can conceal a large business process.
+
+[The PortOps readiness model](https://github.com/phlppgdfry/portops-ai)
+
+</details>
+
+<sub>Playful captions around documented engineering issues and design trade-offs. Animations are illustrations, not recordings.</sub>
+
+## Milestones
+
+A few concrete checkpoints from the public build log:
+
+- **7 June 2026:** ClickTrack v1.0.2 published as the notarized legacy Pro download. [Release](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2)
+- **28–29 July 2026:** DocuRelay Android emulator workflow documented, then rechecked after the SQLite fix. [Runtime evidence](https://github.com/phlppgdfry/docurelay-field/blob/main/docs/runtime-validation.md)
+- **8 September 2026:** PortOps gains procedure retrieval and durable, human-reviewed action proposals. [Commit](https://github.com/phlppgdfry/portops-ai/commit/e622656fdd6baf717e5a5c986f9c73382e2f8058)
+
+[Open the milestone log →](MILESTONES.md)
 
 ## Dispatch log
 
 <!-- ACTIVITY:START -->
-![Public repository snapshot](assets/activity.svg)
+![Ways to explore the portfolio](assets/activity.svg)
+
+**Try the featured work:** [ClickTrack](https://github.com/phlppgdfry/ClickTrack/releases) · [MirrorMate](https://apps.apple.com/us/app/mirrormate-menubar-mirror/id6752225278) · [Terminal Operations Simulator](https://phlppgdfry.github.io/terminal-operating-system-sim/) · [DocuRelay Android walkthrough](https://github.com/phlppgdfry/docurelay-field/blob/main/docs/assets/android-runtime-postfix-demo.gif)
 
 **Recently pushed repositories**
 
@@ -255,7 +351,7 @@ I'm interested in the details that make a tool usable: what happens offline, whe
 
 **Golf, kitesurfing, chess, and a healthy respect for the North Sea wind forecast.** Originally from Bruges, now based in Knokke-Heist. Dutch, French and English.
 
-<p align="center"><img src="assets/radar.gif" width="460" alt="Animated side-quest radar: new idea, scope tiny, probably"></p>
+<p align="center"><img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="360" alt="Animated developer at a desk"><br><sub>Meanwhile, the wind forecast has opened another tab.</sub></p>
 
 <details>
 <summary><b>Bonus: the unofficial operating manual</b></summary>
