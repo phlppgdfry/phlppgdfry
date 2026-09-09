@@ -47,6 +47,6 @@ Check local links, Markdown tables, image alt text, GIF frame counts, SVG validi
 
 Run `python3 scripts/build_preview_visuals.py` to rebuild the six code-native SVG covers, four harbor district tiles and two editorial GIFs. The harbor uses individually linked images because embedded SVG image links are not a reliable navigation mechanism in a GitHub README. No JavaScript or custom CSS is required.
 
-New asset provenance: `docurelay.png` is an unaltered copy of `phlppgdfry/docurelay-field/docs/assets/android-runtime-postfix.png`. All `cover-*.svg`, `district-*.svg`, `query-plot-twist.gif` and `release-checklist.gif` assets are original generated illustrations, not screenshots or recordings.
+New asset provenance: `docurelay.png` is an unaltered copy of `phlppgdfry/docurelay-field/docs/assets/android-runtime-postfix.png`. All `action-*.svg`, `cover-*.svg`, `district-*.svg`, `query-plot-twist.gif` and `release-checklist.gif` assets are original generated illustrations, not screenshots or recordings.
 
 Run `python3 -m unittest discover -s tests -v` before publishing. `Profile preview checks` runs the same read-only validation on pull requests.

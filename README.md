@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/phlppgdfry/ClickTrack/releases"><img src="https://img.shields.io/badge/DOWNLOAD_A_MAC_APP-c8f135?style=for-the-badge&logo=apple&logoColor=0b1119" alt="Download a Mac app — ClickTrack releases"></a>
-<a href="https://phlppgdfry.github.io/terminal-operating-system-sim/"><img src="https://img.shields.io/badge/TRY_A_TERMINAL_SIM-55ddec?style=for-the-badge&logoColor=0b1119" alt="Try a browser demo — terminal operations simulator"></a>
-<a href="assets/docurelay-demo.gif"><img src="https://img.shields.io/badge/WATCH_A_WORKFLOW-bc9cff?style=for-the-badge&logoColor=0b1119" alt="Watch the existing DocuRelay Android walkthrough"></a>
+<a href="https://github.com/phlppgdfry/ClickTrack/releases"><img src="assets/action-download.svg" width="258" alt="Download a Mac app — ClickTrack releases"></a>
+<a href="https://phlppgdfry.github.io/terminal-operating-system-sim/"><img src="assets/action-demo.svg" width="258" alt="Try a browser demo — terminal operations simulator"></a>
+<a href="assets/docurelay-demo.gif"><img src="assets/action-watch.svg" width="258" alt="Watch the existing DocuRelay Android walkthrough"></a>
 </p>
 
 <p align="center"><b><a href="#explore-the-harbor">Harbor map</a> · <a href="#featured-projects">Featured projects</a> · <a href="#project-arcade">Project arcade</a> · <a href="#side-quest-of-the-month">Side quest</a> · <a href="#dispatch-log">Activity</a> · <a href="#off-duty">Off duty</a></b></p>
