@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="290" viewBox="0 0 960 290" role="img" aria-label="Beyond the terminal">
+    <rect width="960" height="290" rx="18" fill="#0b1119"/>
+    <path d="M0 235H960M690 0V290M738 0V290M786 0V290M834 0V290M882 0V290M930 0V290" stroke="#26384a" opacity=".55"/>
+    <rect x="34" y="32" width="182" height="27" rx="5" fill="#c8f135"/>
+    <text x="47" y="50" font-family="monospace" font-size="13" fill="#0b1119">PHLPPGDFRY / BELGIUM</text>
+    <text x="34" y="123" font-family="Arial,sans-serif" font-weight="700" font-size="49" fill="#edf4fa">Beyond the terminal</text>
+    <text x="36" y="163" font-family="Arial,sans-serif" font-size="18" fill="#a2b2c4">Philippe, also known as Kippie. Somewhere near the North Sea.</text>
+    <text x="36" y="212" font-family="monospace" font-size="13" fill="#55ddec">LOGISTICS / DATA &amp; AI / NATIVE APPS / BUSINESS ANALYSIS</text>
+    <text x="36" y="267" font-family="monospace" font-size="12" fill="#a2b2c4">HALF BUSINESS BRAIN. HALF TERMINAL WINDOW.</text>
+    <path d="M797 222V58H922M770 223H824M797 58L825 32L864 58M881 58V113" stroke="#c8f135" stroke-width="4" fill="none"/>
+    <rect x="845" y="113" width="73" height="39" rx="4" fill="#55ddec"/>
+    <path d="M859 122V143M873 122V143M887 122V143M901 122V143" stroke="#0b1119" opacity=".35"/>
+    </svg>

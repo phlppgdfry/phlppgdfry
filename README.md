@@ -1,207 +1,282 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:080808,45:1f2937,100:C8F135&height=150&section=header&text=Philippe%20Godfroy&fontSize=44&fontColor=ffffff&fontAlignY=58&animation=fadeIn&desc=builder%20%C2%B7%20analyst%20%C2%B7%20logistics%20nerd%20%C2%B7%20Belgium&descSize=15&descAlignY=79&descColor=C8F135" width="100%" />
-</div>
+<p align="center">
+  <img src="assets/banner.svg" width="100%" alt="Philippe Godfroy — I turn operational chaos into software. Sometimes it becomes a product.">
+</p>
 
-<div align="center">
+<p align="center">
+  <a href="https://philippegodfroy.com"><img src="https://img.shields.io/badge/WEBSITE-c8f135?style=for-the-badge&logo=safari&logoColor=0b1119" alt="Website"></a>
+  <a href="https://linkedin.com/in/philippe-godfroy"><img src="https://img.shields.io/badge/LINKEDIN-163448?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:philippe.godfroy@hotmail.com"><img src="https://img.shields.io/badge/SAY_HELLO-163448?style=for-the-badge&logo=gmail&logoColor=55ddec" alt="Email Philippe"></a>
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=900&color=C8F135&background=00000000&center=true&vCenter=true&width=720&lines=I+build+small+systems+for+messy+real-world+problems.;Ports%2C+dashboards%2C+apps%2C+automation%2C+AI%2C+odd+ideas.;Half+business+brain%2C+half+terminal+window.;Usually+somewhere+between+a+spreadsheet+and+a+prototype.)](https://git.io/typing-svg)
+<p align="center"><b><a href="#start-here">Start here</a> · <a href="#featured-projects">Featured projects</a> · <a href="#project-arcade">Project arcade</a> · <a href="#the-toolbox">Toolbox</a> · <a href="#dispatch-log">Activity</a> · <a href="#off-duty">Off duty</a></b></p>
 
-![Belgium](https://img.shields.io/badge/Belgium-0d0d0d?style=for-the-badge&labelColor=C8F135&color=0d0d0d)
-![Self taught](https://img.shields.io/badge/self--taught_since-2010ish-0d0d0d?style=for-the-badge&labelColor=00E5FF&color=0d0d0d)
-![Mode](https://img.shields.io/badge/mode-build_%2F_break_%2F_fix-0d0d0d?style=for-the-badge&labelColor=FF2D55&color=0d0d0d)
-![Coffee](https://img.shields.io/badge/fuel-coffee-0d0d0d?style=for-the-badge&labelColor=6e40c9&color=0d0d0d)
-![Views](https://komarev.com/ghpvc/?username=phlppgdfry&style=for-the-badge&color=C8F135&labelColor=0d0d0d&label=views)
+## Hi, I'm Philippe 👋
 
-</div>
+A self-taught builder from **Bruges → Knokke-Heist, Belgium**. I like turning vague things into working things: a port operations desk, an offline mobile workflow, a tiny Mac utility, a data pipeline, or a business case with an actual next step.
 
----
+**Half business brain, half terminal window.** I enjoy the space where software meets operations: understanding the problem, shaping the workflow, building a useful first version, and finding out what breaks.
 
-## Hi
-
-I like turning vague things into working things.
-
-Sometimes that means a logistics dashboard. Sometimes a tiny macOS utility. Sometimes a business analysis case study, a scraper, a CLI, a product spec, or a local AI toy that should probably not have become a weekend project but did anyway.
-
-This profile is the front door. The more serious / specific versions are here:
-
-<div align="center">
-
-| Indie / apps | Business analysis | Professional | Personal |
-|:---:|:---:|:---:|:---:|
-| [![Open](https://img.shields.io/badge/open-C8F135?style=flat-square&labelColor=0d0d0d)](./INDIE_DEV.md) | [![Open](https://img.shields.io/badge/open-0077B5?style=flat-square&labelColor=0d0d0d)](./BA_PROFILE.md) | [![Open](https://img.shields.io/badge/open-6e40c9?style=flat-square&labelColor=0d0d0d)](./PROFESSIONAL.md) | [![Open](https://img.shields.io/badge/open-2d6a4f?style=flat-square&labelColor=0d0d0d)](./PERSONAL.md) |
-
-</div>
-
----
-
-## Little Vibe Check
-
-<div align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="320" alt="coding gif" />
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="320" alt="thinking gif" />
-</div>
-
----
-
-## Things I Keep Building Around
-
-```txt
-ports and logistics      ████████████████████  lots
-business analysis        ████████████████░░░░  structured chaos
-dashboards and data      ███████████████░░░░░  charts, signals, KPIs
-AI and local tools       █████████████░░░░░░░  useful experiments
-native apps              ███████████░░░░░░░░░  Swift when it fits
-random side quests       ████████████████████  impossible to avoid
+```yaml
+philippe:
+  home_base: Belgian coast
+  building_since: "~2010"
+  interests: [logistics, data, AI, native apps, business analysis]
+  default_mode: "understand → prototype → test → improve"
+  side_quests: enabled
+  scope_creep: investigating
 ```
 
----
+## Start here
 
-## Project Arcade
+| If you're here for… | Take this route |
+| :--- | :--- |
+| 🍎 Apps, product decisions and indie development | [The indie workshop](INDIE_DEV.md) |
+| 🧠 Requirements, processes and business cases | [Business analysis portfolio](BA_PROFILE.md) |
+| 🛠 Engineering, experience and collaboration | [Professional profile](PROFESSIONAL.md) |
+| 🌊 The human behind the repositories | [Off-duty Philippe](PERSONAL.md) |
+| 🗂 Everything I've put on the public shelf | [Full project catalog](PROJECTS.md) |
 
-| Area | Repos |
-|---|---|
-| Logistics | Port / logistics intelligence | [`zeebrugge-logistics-intel`](https://github.com/phlppgdfry/zeebrugge-logistics-intel) · [`eco-match-engine`](https://github.com/phlppgdfry/eco-match-engine) · [`delay-dna`](https://github.com/phlppgdfry/delay-dna) · [`ecs-ecoload`](https://github.com/phlppgdfry/ecs-ecoload) | Port Intelligence | [`Logistics-Master Hub`](https://github.com/phlppgdfry/Logistics-Master) — The ultimate port suite (YardExx, Ecoload, TOS-Sim, Research) |
-| Apps and utilities | [`MirrorMate-App`](https://github.com/phlppgdfry/MirrorMate-App) · private Swift/macOS/iOS experiments |
-| Developer / AI experiments | [`git-personality-profiler`](https://github.com/phlppgdfry/git-personality-profiler) · [`LocalMind`](https://github.com/phlppgdfry/LocalMind) · private DevDNA experiments |
-| BA case studies | [`breakfast-delivery-platform`](https://github.com/phlppgdfry/breakfast-delivery-platform) · [`customer-churn-analysis`](https://github.com/phlppgdfry/customer-churn-analysis) · [`port-logistics-optimization`](https://github.com/phlppgdfry/port-logistics-optimization) · [`gymlabb-platform-spec`](https://github.com/phlppgdfry/gymlabb-platform-spec) |
+<p align="center"><img src="assets/harbor.gif" width="100%" alt="Animated container crane shipping ideas, data, apps and tools"></p>
+<p align="center"><sub>Yes, I took “shipping software” literally.</sub></p>
 
----
+## Featured projects
 
-## Tech Stack
+Six doors into the work. Each repository explains its current scope and how to explore it.
 
-### Languages
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Groovy](https://img.shields.io/badge/Groovy-4298B8?style=flat-square&logo=apachegroovy&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Web, UI and Apps
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=flat-square&logo=swift&logoColor=white)
-![UIKit](https://img.shields.io/badge/UIKit-2396F3?style=flat-square&logo=apple&logoColor=white)
-![AVFoundation](https://img.shields.io/badge/AVFoundation-111111?style=flat-square&logo=apple&logoColor=white)
-![MapKit](https://img.shields.io/badge/MapKit-34C759?style=flat-square&logo=apple&logoColor=white)
-![StoreKit](https://img.shields.io/badge/StoreKit_2-34C759?style=flat-square&logo=apple&logoColor=white)
-![Core ML](https://img.shields.io/badge/Core_ML-FA7343?style=flat-square&logo=apple&logoColor=white)
-![TestFlight](https://img.shields.io/badge/TestFlight-0D96F6?style=flat-square&logo=apple&logoColor=white)
-![WidgetKit](https://img.shields.io/badge/WidgetKit-0D96F6?style=flat-square&logo=apple&logoColor=white)
-![ActivityKit](https://img.shields.io/badge/ActivityKit-0D96F6?style=flat-square&logo=apple&logoColor=white)
-![App Intents](https://img.shields.io/badge/App_Intents-0D96F6?style=flat-square&logo=apple&logoColor=white)
+### 🚢 Logistics Master
 
-### Backend, Data and Automation
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![.NET MAUI](https://img.shields.io/badge/.NET_MAUI-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![SignalR](https://img.shields.io/badge/SignalR-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![CQRS](https://img.shields.io/badge/CQRS-222222?style=flat-square&logoColor=white)
-![DDD](https://img.shields.io/badge/Domain--Driven_Design-222222?style=flat-square&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=black)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Recharts](https://img.shields.io/badge/Recharts-FF6384?style=flat-square&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-![matplotlib](https://img.shields.io/badge/matplotlib-11557C?style=flat-square&logo=python&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Webhooks](https://img.shields.io/badge/Webhooks-FF6C37?style=flat-square&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white)
+**The port and supply-chain portfolio.**
 
-### AI, Scraping and Product Work
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-191919?style=flat-square&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Vercel AI SDK](https://img.shields.io/badge/Vercel_AI_SDK-000000?style=flat-square&logo=vercel&logoColor=white)
-![Firecrawl](https://img.shields.io/badge/Firecrawl-F97316?style=flat-square&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Microsoft Fabric](https://img.shields.io/badge/Microsoft_Fabric-0d0d0d?style=flat-square&logo=microsoftazure&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
-![BPMN](https://img.shields.io/badge/BPMN-0d0d0d?style=flat-square&logoColor=white)
-![BRD](https://img.shields.io/badge/BRD_%2F_specs-0d0d0d?style=flat-square&logoColor=white)
-![MoSCoW](https://img.shields.io/badge/MoSCoW-0d0d0d?style=flat-square&logoColor=white)
-![User Stories](https://img.shields.io/badge/User_Stories-0d0d0d?style=flat-square&logoColor=white)
-![KPI Dashboards](https://img.shields.io/badge/KPI_Dashboards-0d0d0d?style=flat-square&logoColor=white)
-![EDI](https://img.shields.io/badge/EDI-0d0d0d?style=flat-square&logoColor=white)
-![Oracle APEX](https://img.shields.io/badge/Oracle_APEX-F80000?style=flat-square&logo=oracle&logoColor=white)
+A central hub for terminal simulations, yard capacity, shipment visibility, empty-mileage tools and operational intelligence.
 
-### Product, BA and Office
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
-![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white)
-![Miro](https://img.shields.io/badge/Miro-FFD02F?style=flat-square&logo=miro&logoColor=black)
-![Word](https://img.shields.io/badge/Word-2B579A?style=flat-square&logo=microsoftword&logoColor=white)
-![PowerPoint](https://img.shields.io/badge/PowerPoint-B7472A?style=flat-square&logo=microsoftpowerpoint&logoColor=white)
-![Teams](https://img.shields.io/badge/Teams-6264A7?style=flat-square&logo=microsoftteams&logoColor=white)
-![SharePoint](https://img.shields.io/badge/SharePoint-0078D4?style=flat-square&logo=microsoftsharepoint&logoColor=white)
-![Power Query](https://img.shields.io/badge/Power_Query-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+`Portfolio hub` · `Prototypes + research`
 
-### Infra and Tools
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Bicep](https://img.shields.io/badge/Bicep-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Pulumi](https://img.shields.io/badge/Pulumi-8A3391?style=flat-square&logo=pulumi&logoColor=white)
-![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=flat-square&logo=xcode&logoColor=white)
-![XcodeGen](https://img.shields.io/badge/XcodeGen-147EFB?style=flat-square&logo=xcode&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white)
-![Homebrew](https://img.shields.io/badge/Homebrew-FBB040?style=flat-square&logo=homebrew&logoColor=black)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
-![RevenueCat](https://img.shields.io/badge/RevenueCat-F25A2B?style=flat-square&logo=revenuecat&logoColor=white)
-![App Store Connect](https://img.shields.io/badge/App_Store_Connect-0D96F6?style=flat-square&logo=appstore&logoColor=white)
+**Look inside:** domain modelling, dashboards, APIs and business-analysis case studies.
 
----
+[Explore the hub →](https://github.com/phlppgdfry/Logistics-Master)
 
-## No Fragile Stats Here
+</td>
+<td width="50%" valign="top">
 
-Some GitHub stat cards randomly break, cache weirdly, or count nonsense. So here is the simpler version:
+### 🧭 PortOps AI
 
-```txt
-public repos      many small experiments + a few bigger themes
-main themes       logistics · AI · dashboards · apps · business analysis
-default style     ship a working slice, then clean the edges
-current bias      Zeebrugge / ports / operational intelligence
+**Which vehicles need attention, and why?**
+
+An operations agent for investigating RoRo readiness, conflicting evidence and booking exceptions, with reviewable action drafts.
+
+`Working local prototype` · `C# / .NET`
+
+**Look inside:** source-backed explanations, scoped tools and human approval. Real-model validation and production integration remain planned.
+
+[Investigate PortOps →](https://github.com/phlppgdfry/portops-ai)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🖱 ClickTrack
+
+**A private dashboard for your Mac activity.**
+
+Clicks, keystroke counts, scrolls, focus rhythm and daily patterns — with data kept on your Mac.
+
+<a href="https://github.com/phlppgdfry/ClickTrack"><img src="assets/clicktrack.png" width="400" alt="ClickTrack Today dashboard with local input and focus statistics"></a>
+
+`macOS app` · `Direct download`
+
+[Project →](https://github.com/phlppgdfry/ClickTrack) · [Downloads →](https://github.com/phlppgdfry/ClickTrack/releases)
+
+</td>
+<td width="50%" valign="top">
+
+### 🪞 MirrorMate
+
+**A quick mirror, one shortcut away.**
+
+A native Mac camera utility with a floating mirror, keyboard shortcuts, appearance controls and a focused interface.
+
+<a href="https://github.com/phlppgdfry/MirrorMate-App"><img src="assets/mirrormate.png" width="400" alt="MirrorMate native macOS appearance settings"></a>
+
+`macOS app` · `SwiftUI / AVFoundation`
+
+[Showcase →](https://github.com/phlppgdfry/MirrorMate-App) · [App Store →](https://apps.apple.com/us/app/mirrormate-menubar-mirror/id6752225278)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏗 Fabric Data Platform
+
+**From raw events to a useful data model.**
+
+A Microsoft Fabric learning project using synthetic lottery-style data to explore Bronze/Silver/Gold layers, PySpark, SQL and dbt.
+
+`Early scaffold / learning lab`
+
+**Look inside:** the architecture, data model and staged build plan. An evolving data-engineering portfolio.
+
+[Follow the build →](https://github.com/phlppgdfry/fabric-lottery-data-platform)
+
+</td>
+<td width="50%" valign="top">
+
+### 📱 DocuRelay Field
+
+**Field documentation that survives going offline.**
+
+A .NET MAUI portfolio app with a durable SQLite upload queue, an ASP.NET Core API and a local processing workflow.
+
+`Working portfolio demo` · `.NET MAUI / SQLite`
+
+**Look inside:** verified Android emulator flow, retry handling and the API-to-worker journey.
+
+[Explore the workflow →](https://github.com/phlppgdfry/docurelay-field) · [Watch the demo →](assets/docurelay-demo.gif)
+
+</td>
+</tr>
+</table>
+
+## On the workbench 🔧
+
+| Focus | What I'm exploring |
+| :--- | :--- |
+| [PortOps AI](https://github.com/phlppgdfry/portops-ai) | Operational evidence, bounded agent tools and approval workflows |
+| [Fabric Data Platform](https://github.com/phlppgdfry/fabric-lottery-data-platform) | Data modelling, Medallion architecture and a staged engineering build |
+| [DocuRelay Field](https://github.com/phlppgdfry/docurelay-field) | Offline mobile state, reliable processing and Azure architecture |
+
+<p align="center">
+  <img src="assets/terminal.gif" width="48%" alt="Animated terminal: find the messy workflow, build a working slice, test awkward cases">
+  <img src="assets/pipeline.gif" width="48%" alt="Animated Bronze, Silver and Gold data pipeline">
+</p>
+
+## Project arcade
+
+Pick a lane. There are operational tools, native apps, enterprise workflows and a few ideas that escaped the notebook.
+
+| Lane | Good places to start |
+| :--- | :--- |
+| 🚢 **Ports & logistics** | [Logistics Master](https://github.com/phlppgdfry/Logistics-Master) · [PortOps AI](https://github.com/phlppgdfry/portops-ai) · [PortPulse](https://github.com/phlppgdfry/portpulse) · [TOS simulator](https://github.com/phlppgdfry/terminal-operating-system-sim) |
+| 📊 **Data engineering & analytics** | [Fabric platform](https://github.com/phlppgdfry/fabric-lottery-data-platform) · [Sensor data platform](https://github.com/phlppgdfry/environmental-sensor-data-platform) · [Belgium mobility/weather ETL](https://github.com/phlppgdfry/belgium-mobility-weather-etl) · [Sales analytics](https://github.com/phlppgdfry/python-data-analytics-project) |
+| 🏢 **Enterprise & .NET** | [Shipment tracking](https://github.com/phlppgdfry/shipment-tracking-platform) · [Business Central operations](https://github.com/phlppgdfry/business-central-agentic-operations) · [DocuRelay](https://github.com/phlppgdfry/docurelay-field) · [Workwear ERP lab](https://github.com/phlppgdfry/workwear-erp-lab) |
+| 🍎 **Apps & utilities** | [ClickTrack](https://github.com/phlppgdfry/ClickTrack) · [MirrorMate](https://github.com/phlppgdfry/MirrorMate-App) · [Health intake case study](https://github.com/phlppgdfry/health-intake-pipeline) |
+| 🤖 **AI & developer experiments** | [LocalMind](https://github.com/phlppgdfry/LocalMind) · [Foundry lab](https://github.com/phlppgdfry/micro-foundry-lab) · [Git Personality Profiler](https://github.com/phlppgdfry/git-personality-profiler) · [Stack rules](https://github.com/phlppgdfry/stack-rules) |
+| 🧠 **Business analysis** | [Breakfast delivery](https://github.com/phlppgdfry/breakfast-delivery-platform) · [Customer churn](https://github.com/phlppgdfry/customer-churn-analysis) · [GymLabb specification](https://github.com/phlppgdfry/gymlabb-platform-spec) |
+
+**[Browse the complete catalog, including labs and archived work →](PROJECTS.md)**
+
+## The toolbox
+
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/C%23_%2F_.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="C# and .NET">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=swift&logoColor=white" alt="Swift">
+<img src="https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
+<img src="https://img.shields.io/badge/React-163448?style=flat-square&logo=react&logoColor=55ddec" alt="React">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+<img src="https://img.shields.io/badge/Azure_%2F_Fabric-163448?style=flat-square" alt="Azure and Microsoft Fabric">
+</p>
+
+| Work | Tools in context |
+| :--- | :--- |
+| Native apps | SwiftUI, AVFoundation and StoreKit in [MirrorMate](https://github.com/phlppgdfry/MirrorMate-App) |
+| APIs & mobile workflows | ASP.NET Core, MAUI and SQLite in [DocuRelay](https://github.com/phlppgdfry/docurelay-field) |
+| Data & reporting | Python, pandas, SQL and Plotly in [Sales Analytics](https://github.com/phlppgdfry/python-data-analytics-project) |
+| Operational interfaces | TypeScript dashboards and KPI design in [PortPulse](https://github.com/phlppgdfry/portpulse) |
+| Business analysis | Process maps, requirements, user stories and prioritisation in [the BA portfolio](BA_PROFILE.md) |
+
+<details>
+<summary><b>More tools, frameworks and things I've experimented with</b></summary>
+
+Web: Next.js, Tailwind CSS, Angular, Node.js, FastAPI, REST APIs and webhooks.
+
+Data: PostgreSQL, Supabase, Firebase, NumPy, Jupyter, Power BI, Excel and Power Query.
+
+AI: Ollama, retrieval, tool calling, model APIs, evaluation and scraping workflows.
+
+Delivery: GitHub Actions, Docker, Vercel, Bicep, Xcode and TestFlight.
+
+Product: BPMN, BRDs, acceptance criteria, MoSCoW, Figma, Jira, Confluence and Miro.
+
+**[Open the full badge wall →](TOOLBOX.md)** · These are tools used or explored; repositories show their actual scope.
+
+</details>
+
+## How I build
+
+**Understand the operation → define the smallest useful workflow → build it → exercise the awkward cases → improve it.**
+
+I'm interested in the details that make a tool usable: what happens offline, where an answer came from, who approves an action, what a KPI actually means, and what a user should do when something fails.
+
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="310" alt="Animated developer working at a desk">
+<br><sub><b>“I'll just make a quick prototype.”</b></sub>
+</td>
+<td width="50%" align="center" valign="top">
+<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="310" alt="Animated coding scene">
+<br><sub><b>Several repositories later.</b></sub>
+</td>
+</tr>
+</table>
+
+## Dispatch log
+
+<!-- ACTIVITY:START -->
+![Public repository snapshot](assets/activity.svg)
+
+**Recently pushed repositories**
+
+| Repository | Latest push (UTC) |
+| :--- | :--- |
+| [portops-ai](https://github.com/phlppgdfry/portops-ai) | 2026-09-08 |
+| [fabric-lottery-data-platform](https://github.com/phlppgdfry/fabric-lottery-data-platform) | 2026-09-04 |
+| [shipment-tracking-platform](https://github.com/phlppgdfry/shipment-tracking-platform) | 2026-09-04 |
+| [business-central-agentic-operations](https://github.com/phlppgdfry/business-central-agentic-operations) | 2026-09-04 |
+| [Logistics-Master](https://github.com/phlppgdfry/Logistics-Master) | 2026-08-27 |
+
+**Latest stable releases from the featured release watchlist**
+
+- [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
+
+<sub>Snapshot: 2026-09-09 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>
+<!-- ACTIVITY:END -->
+
+<sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
+
+## Off duty
+
+**Golf, kitesurfing, chess, and a healthy respect for the North Sea wind forecast.** Originally from Bruges, now based in Knokke-Heist. Dutch, French and English.
+
+<p align="center"><img src="assets/radar.gif" width="460" alt="Animated side-quest radar: new idea, scope tiny, probably"></p>
+
+<details>
+<summary><b>Bonus: the unofficial operating manual</b></summary>
+
+```text
+A small idea       → a note
+An interesting bug → a late evening
+A messy workflow   → a prototype
+A windy day        → check the forecast
+One more feature   → famous last words
 ```
 
----
+[More about the person behind the code →](PERSONAL.md)
 
-## Links
+</details>
 
-<div align="center">
+## Let's build something useful
 
-[![Website](https://img.shields.io/badge/philippegodfroy.com-C8F135?style=for-the-badge&labelColor=0d0d0d)](https://philippegodfroy.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/philippe-godfroy)
-[![Email](https://img.shields.io/badge/Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:philippe.godfroy@hotmail.com)
+Interested in **operational software, data products, native apps or turning a business problem into a working prototype**? I'd enjoy comparing notes.
 
-</div>
+**[Website](https://philippegodfroy.com) · [LinkedIn](https://linkedin.com/in/philippe-godfroy) · [Email](mailto:philippe.godfroy@hotmail.com)**
 
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C8F135,100:080808&height=95&section=footer&animation=fadeIn" width="100%" />
-
-`Brugge -> Knokke-Heist -> terminal window`
-</div>
+<p align="center"><img src="assets/coast.gif" width="100%" alt="Animated North Sea waves and a kite"></p>
+<p align="center"><sub>Built on the Belgian coast. Usually with a terminal open.<br>Profile exploration inspired by <a href="https://github.com/HariSekhon">Hari Sekhon</a>; harbor artwork and animations made for this profile.</sub></p>
