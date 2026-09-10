@@ -50,3 +50,7 @@ Run `python3 scripts/build_preview_visuals.py` to rebuild the six code-native SV
 New asset provenance: `docurelay.png` is an unaltered copy of `phlppgdfry/docurelay-field/docs/assets/android-runtime-postfix.png`. All `action-*.svg`, `cover-*.svg`, `district-*.svg`, `query-plot-twist.gif` and `release-checklist.gif` assets are original generated illustrations, not screenshots or recordings.
 
 Run `python3 -m unittest discover -s tests -v` before publishing. `Profile preview checks` runs the same read-only validation on pull requests.
+
+## Animated harbor and bonus jokes
+
+Run `python3 scripts/build_fun_visuals.py` (Pillow) to rebuild `banner.gif`, `one-small-feature.gif` and `production-surprise.gif`. These are original code-drawn illustrations. The header keeps its text static while the crane, ship and water move. `banner.svg` remains available as a static alternative. The two additional jokes are tucked into a bonus disclosure; the restored “Several repositories later” embed retains its original GIPHY source.

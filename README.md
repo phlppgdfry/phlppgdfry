@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Philippe Godfroy — I turn operational chaos into software. Sometimes it becomes a product.">
+  <img src="assets/banner.gif" width="100%" alt="Philippe Godfroy — I turn operational chaos into software. Sometimes it becomes a product. Animated harbor with a moving crane, container ship and waves.">
 </p>
 
 <p align="center">
@@ -270,6 +270,8 @@ python3 profiler.py /path/to/your/repository
 
 [Read the engineering notes and their evidence →](BUILD_NOTES.md)
 
+<p align="center"><img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="310" alt="Animated coding scene"><br><sub><b>Several repositories later.</b></sub></p>
+
 ## Museum of questionable decisions
 
 <details>
@@ -310,6 +312,17 @@ Pickup-ready and loading-ready are different questions. Add stale observations a
 </details>
 
 <sub>Playful captions around documented engineering issues and design trade-offs. Animations are illustrations, not recordings.</sub>
+
+<details>
+<summary><b>🍿 Bonus exhibits — scope creep & the production gremlin</b></summary>
+
+<img src="assets/one-small-feature.gif" width="600" alt="Developer joke: one tiny button grows into settings, sync, an API, a dashboard and a new repository">
+
+<img src="assets/production-surprise.gif" width="600" alt="Fictional developer joke: local checks pass, then a bug appears in production and requests a sea view">
+
+<sub>Developer comedy. These are original illustrations, not incident reports.</sub>
+
+</details>
 
 ## Milestones
 
@@ -375,4 +388,4 @@ Interested in **operational software, data products, native apps or turning a bu
 **[Website](https://philippegodfroy.com) · [LinkedIn](https://linkedin.com/in/philippe-godfroy) · [Email](mailto:philippe.godfroy@hotmail.com)**
 
 <p align="center"><img src="assets/coast.gif" width="100%" alt="Animated North Sea waves and a kite"></p>
-<p align="center"><sub>Built on the Belgian coast. Usually with a terminal open.<br>Profile exploration inspired by <a href="https://github.com/HariSekhon">Hari Sekhon</a>; harbor artwork and animations made for this profile.</sub></p>
+<p align="center"><sub>Built on the Belgian coast. Usually with a terminal open.</sub></p>
