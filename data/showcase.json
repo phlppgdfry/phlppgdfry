@@ -1,0 +1,6 @@
+[
+  {"name":"ClickTrack","kind":"app","repository":"ClickTrack","url":"https://github.com/phlppgdfry/ClickTrack/releases"},
+  {"name":"MirrorMate","kind":"app","repository":"MirrorMate-App","url":"https://apps.apple.com/us/app/mirrormate-menubar-mirror/id6752225278"},
+  {"name":"Terminal Operations Simulator","kind":"browser_demo","repository":"terminal-operating-system-sim","url":"https://phlppgdfry.github.io/terminal-operating-system-sim/"},
+  {"name":"DocuRelay Android walkthrough","kind":"recorded_workflow","repository":"docurelay-field","url":"https://github.com/phlppgdfry/docurelay-field/blob/main/docs/assets/android-runtime-postfix-demo.gif"}
+]

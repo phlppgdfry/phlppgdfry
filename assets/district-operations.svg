@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="210" viewBox="0 0 960 210" role="img" aria-label="Operations Tower">
+<rect width="960" height="210" rx="16" fill="#0b1119"/><path d="M654 20V185" stroke="#26384a"/>
+<text x="30" y="38" font-size="14" font-family="monospace" fill="#ffbc79">04 / CONTROL QUAY</text>
+<text x="30" y="96" font-size="43" font-weight="bold" font-family="Arial,sans-serif" fill="#edf4fa">Operations Tower</text>
+<text x="32" y="135" font-size="19" font-family="Arial,sans-serif" fill="#a2b2c4">Ports, workflows and the business behind the software.</text>
+<text x="32" y="176" font-size="13" font-family="monospace" fill="#ffbc79">ENTER THIS DISTRICT →</text>
+<path d="M733 171V43H914M714 171H757M733 43L769 21L805 43M864 43V92" fill="none" stroke="#ffbc79" stroke-width="4"/><rect x="826" y="93" width="77" height="42" rx="4" fill="#ffbc79"/><path d="M697 188H929" stroke="#26384a" stroke-width="3"/><path d="M0 196H960" stroke="#55ddec" stroke-width="3"/><path d="M30 205H130M175 205H275M320 205H420M465 205H565M610 205H710M755 205H855" stroke="#26384a" stroke-width="2"/></svg>

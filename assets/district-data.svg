@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="210" viewBox="0 0 960 210" role="img" aria-label="Data Warehouse">
+<rect width="960" height="210" rx="16" fill="#0b1119"/><path d="M654 20V185" stroke="#26384a"/>
+<text x="30" y="38" font-size="14" font-family="monospace" fill="#55ddec">02 / NORTH QUAY</text>
+<text x="30" y="96" font-size="43" font-weight="bold" font-family="Arial,sans-serif" fill="#edf4fa">Data Warehouse</text>
+<text x="32" y="135" font-size="19" font-family="Arial,sans-serif" fill="#a2b2c4">Pipelines, analytics and useful answers.</text>
+<text x="32" y="176" font-size="13" font-family="monospace" fill="#55ddec">ENTER THIS DISTRICT →</text>
+<rect x="694" y="43" width="160" height="30" rx="7" fill="#131f2c" stroke="#dfa46d" stroke-width="2"/><text x="716" y="64" fill="#dfa46d" font-size="15" font-family="monospace">BRONZE</text><rect x="721" y="82" width="160" height="30" rx="7" fill="#131f2c" stroke="#c2d1dd" stroke-width="2"/><text x="743" y="103" fill="#c2d1dd" font-size="15" font-family="monospace">SILVER</text><rect x="748" y="121" width="160" height="30" rx="7" fill="#131f2c" stroke="#c8f135" stroke-width="2"/><text x="770" y="142" fill="#c8f135" font-size="15" font-family="monospace">GOLD</text><path d="M0 196H960" stroke="#55ddec" stroke-width="3"/><path d="M30 205H130M175 205H275M320 205H420M465 205H565M610 205H710M755 205H855" stroke="#26384a" stroke-width="2"/></svg>

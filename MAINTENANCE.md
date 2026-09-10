@@ -38,3 +38,19 @@ Recommended order: **Logistics-Master**, **portops-ai**, **ClickTrack**, **Mirro
 ## Review before publishing
 
 Check local links, Markdown tables, image alt text, GIF frame counts, SVG validity and the rendered page in light/dark themes and at narrow widths. Keep factual claims aligned with source project READMEs, especially release status and portfolio/scaffold distinctions.
+
+## Proposed exploration layout
+
+`REVIEW.md` links the current snapshot and proposed branch for comparison. `BUILD_NOTES.md` holds sourced design notes; `MILESTONES.md` holds dated evidence. Update these manually when their source projects change.
+
+`data/showcase.json` is the curated list counted by the activity card. Its categories are `app`, `browser_demo` and `recorded_workflow`. Counts describe linked destinations, not live service health. Revisit the dated side quest monthly.
+
+Run `python3 scripts/build_preview_visuals.py` to rebuild the six code-native SVG covers, four harbor district tiles and two editorial GIFs. The harbor uses individually linked images because embedded SVG image links are not a reliable navigation mechanism in a GitHub README. No JavaScript or custom CSS is required.
+
+New asset provenance: `docurelay.png` is an unaltered copy of `phlppgdfry/docurelay-field/docs/assets/android-runtime-postfix.png`. All `action-*.svg`, `cover-*.svg`, `district-*.svg`, `query-plot-twist.gif` and `release-checklist.gif` assets are original generated illustrations, not screenshots or recordings.
+
+Run `python3 -m unittest discover -s tests -v` before publishing. `Profile preview checks` runs the same read-only validation on pull requests.
+
+## Animated harbor and bonus jokes
+
+Run `python3 scripts/build_fun_visuals.py` (Pillow) to rebuild `banner.gif`, `one-small-feature.gif` and `production-surprise.gif`. These are original code-drawn illustrations. The header keeps its text static while the crane, ship and water move. `banner.svg` remains available as a static alternative. The two additional jokes are tucked into a bonus disclosure; the restored “Several repositories later” embed retains its original GIPHY source.
