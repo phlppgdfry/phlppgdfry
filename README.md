@@ -345,17 +345,17 @@ A few concrete checkpoints from the public build log:
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
+| [grafana-observability-lab](https://github.com/phlppgdfry/grafana-observability-lab) | 2026-09-16 |
+| [accessflow-dotnet](https://github.com/phlppgdfry/accessflow-dotnet) | 2026-09-15 |
 | [portops-ai](https://github.com/phlppgdfry/portops-ai) | 2026-09-15 |
 | [git-advanced-lab](https://github.com/phlppgdfry/git-advanced-lab) | 2026-09-13 |
 | [GH-900-foundations-lab](https://github.com/phlppgdfry/GH-900-foundations-lab) | 2026-09-12 |
-| [devdna](https://github.com/phlppgdfry/devdna) | 2026-09-11 |
-| [fabric-lottery-data-platform](https://github.com/phlppgdfry/fabric-lottery-data-platform) | 2026-09-04 |
 
 **Latest stable releases from the featured release watchlist**
 
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-09-15 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>
+<sub>Snapshot: 2026-09-16 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
