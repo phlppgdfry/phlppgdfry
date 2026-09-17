@@ -345,17 +345,17 @@ A few concrete checkpoints from the public build log:
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
-| [grafana-observability-lab](https://github.com/phlppgdfry/grafana-observability-lab) | 2026-09-16 |
-| [accessflow-dotnet](https://github.com/phlppgdfry/accessflow-dotnet) | 2026-09-15 |
-| [portops-ai](https://github.com/phlppgdfry/portops-ai) | 2026-09-15 |
-| [git-advanced-lab](https://github.com/phlppgdfry/git-advanced-lab) | 2026-09-13 |
-| [GH-900-foundations-lab](https://github.com/phlppgdfry/GH-900-foundations-lab) | 2026-09-12 |
+| [Logistics-Master](https://github.com/phlppgdfry/Logistics-Master) | 2026-09-17 |
+| [environmental-sensor-data-platform](https://github.com/phlppgdfry/environmental-sensor-data-platform) | 2026-09-16 |
+| [zeebrugge-logistics-intel](https://github.com/phlppgdfry/zeebrugge-logistics-intel) | 2026-09-16 |
+| [python-data-analytics-lab](https://github.com/phlppgdfry/python-data-analytics-lab) | 2026-09-16 |
+| [python-data-analytics-project](https://github.com/phlppgdfry/python-data-analytics-project) | 2026-09-16 |
 
 **Latest stable releases from the featured release watchlist**
 
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-09-16 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>
+<sub>Snapshot: 2026-09-17 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
