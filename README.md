@@ -345,17 +345,17 @@ A few concrete checkpoints from the public build log:
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
+| [ico-role-execution](https://github.com/phlppgdfry/ico-role-execution) | 2026-10-07 |
+| [ico-job-blueprint](https://github.com/phlppgdfry/ico-job-blueprint) | 2026-10-06 |
 | [digital-transformation-analyst-portfolio](https://github.com/phlppgdfry/digital-transformation-analyst-portfolio) | 2026-10-04 |
 | [accessflow-dotnet](https://github.com/phlppgdfry/accessflow-dotnet) | 2026-09-29 |
 | [Logistics-Master](https://github.com/phlppgdfry/Logistics-Master) | 2026-09-17 |
-| [environmental-sensor-data-platform](https://github.com/phlppgdfry/environmental-sensor-data-platform) | 2026-09-16 |
-| [zeebrugge-logistics-intel](https://github.com/phlppgdfry/zeebrugge-logistics-intel) | 2026-09-16 |
 
 **Latest stable releases from the featured release watchlist**
 
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-10-06 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>
+<sub>Snapshot: 2026-10-07 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
