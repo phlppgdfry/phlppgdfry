@@ -345,17 +345,17 @@ A few concrete checkpoints from the public build log:
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
-| [shortsea-booking-functional-analysis](https://github.com/phlppgdfry/shortsea-booking-functional-analysis) | 2026-10-08 |
+| [shortsea-booking-functional-analysis](https://github.com/phlppgdfry/shortsea-booking-functional-analysis) | 2026-10-10 |
+| [shipment-exception-management-business-analysis](https://github.com/phlppgdfry/shipment-exception-management-business-analysis) | 2026-10-09 |
 | [buildflow-digital-transformation](https://github.com/phlppgdfry/buildflow-digital-transformation) | 2026-10-08 |
 | [management-methoden-nl](https://github.com/phlppgdfry/management-methoden-nl) | 2026-10-07 |
 | [ico-role-execution](https://github.com/phlppgdfry/ico-role-execution) | 2026-10-07 |
-| [ico-job-blueprint](https://github.com/phlppgdfry/ico-job-blueprint) | 2026-10-06 |
 
 **Latest stable releases from the featured release watchlist**
 
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-10-09 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>
+<sub>Snapshot: 2026-10-10 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
