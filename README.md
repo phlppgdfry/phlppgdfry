@@ -236,6 +236,8 @@ Pick a lane. There are operational tools, native apps, enterprise workflows and 
 | Operational interfaces | TypeScript dashboards and KPI design in [PortPulse](https://github.com/phlppgdfry/portpulse) |
 | Business analysis | Process maps, requirements, user stories and prioritisation in [the BA portfolio](BA_PROFILE.md) |
 
+**[See the tools I use every day →](https://github.com/stars/phlppgdfry/lists/my-stack)** · The rest of my stars are sorted into [themed lists](https://github.com/phlppgdfry?tab=stars), from port tech to Swift.
+
 <details>
 <summary><b>More tools, frameworks and things I've experimented with</b></summary>
 
