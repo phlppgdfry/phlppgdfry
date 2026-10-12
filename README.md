@@ -42,6 +42,25 @@ philippe:
 | 🌊 The human behind the repositories | [Off-duty Philippe](PERSONAL.md) |
 | 🗂 Everything I've put on the public shelf | [Full project catalog](PROJECTS.md) |
 
+## Delivery boards & reusable packages
+
+Follow the work from a prioritized issue to a tested release. The boards distinguish completed delivery from planned improvements; the packages are public **0.1.0 previews** with documentation and automated checks.
+
+| Delivery board | Scope |
+| :--- | :--- |
+| [Logistics Operations Roadmap](https://github.com/users/phlppgdfry/projects/6) | PortOps, shipment tracking, terminal integration and reusable package delivery |
+| [Data Platform Delivery](https://github.com/users/phlppgdfry/projects/7) | Harbor Pulse, mobility/weather ETL and environmental telemetry |
+
+| Published package | Use it for | Documentation |
+| :--- | :--- | :--- |
+| [Shipment Tracking API · Docker](https://github.com/users/phlppgdfry/packages/container/package/shipment-tracking-api) | Run the SQL-backed API with synthetic demo data | [Run the container](https://github.com/phlppgdfry/shipment-tracking-platform/blob/master/docs/PACKAGE.md) |
+| [PortOps.Contracts · NuGet](https://github.com/users/phlppgdfry/packages/nuget/package/PortOps.Contracts) | Reuse evidence, bookings, vehicle observations and readiness read models in .NET | [Contracts and installation](https://github.com/phlppgdfry/portops-ai/blob/main/src/PortOps.Contracts/README.md) |
+| [Logistics KPI Utils · npm](https://github.com/users/phlppgdfry/packages/npm/package/logistics-kpi-utils) | Calculate dwell time, signed delay and completed-arrival on-time rates | [Metric definitions and examples](https://github.com/phlppgdfry/logistics-kpi-utils) |
+
+GitHub's npm and NuGet registries require authentication for installation; both releases also provide downloadable artifacts. The container is public. Examples use synthetic data, and package publication does not imply a production deployment.
+
+[Uitleg in het Nederlands: wat dit toevoegt en hoe je het onderhoudt →](PROJECTS_AND_PACKAGES_NL.md)
+
 ## Explore the harbor
 
 Four districts, one slightly overcommitted builder. **Click a district to enter.**
