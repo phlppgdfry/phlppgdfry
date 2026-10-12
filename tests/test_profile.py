@@ -4,7 +4,7 @@ import re
 import unittest
 from unittest.mock import patch
 import xml.etree.ElementTree as ET
-from scripts import update_activity as activity
+from scripts import build_toolbox, update_activity as activity
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -63,5 +63,17 @@ class ContentTests(unittest.TestCase):
         self.assertNotIn('<td width="50%"',text)
         self.assertEqual(len(re.findall(r'src="assets/cover-',text)),6)
         self.assertEqual(len(re.findall(r'<a href="[^"]+"><img src="assets/district-',text)),4)
+
+class ToolboxTests(unittest.TestCase):
+    def test_toolbox_matches_registry(self):
+        registry=json.loads((ROOT/'data/toolbox.json').read_text())
+        self.assertEqual((ROOT/'TOOLBOX.md').read_text(),build_toolbox.render(registry),'run python3 scripts/build_toolbox.py')
+        tools=[t for s in registry['sections'] for t in s['tools']]
+        self.assertTrue(all(s['tools'] for s in registry['sections']))
+        self.assertEqual(len({t['name'].lower() for t in tools}),len(tools))
+        for tool in tools:
+            self.assertRegex(tool['color'],r'^[0-9A-Fa-f]{6}$',tool['name'])
+            if 'repo' in tool:self.assertRegex(tool['repo'],r'^[\w.-]+$',tool['name'])
+            if 'detect' in tool:re.compile(tool['detect'])
 
 if __name__=='__main__':unittest.main()

@@ -225,7 +225,7 @@ Pick a lane. There are operational tools, native apps, enterprise workflows and 
 <img src="https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
 <img src="https://img.shields.io/badge/React-163448?style=flat-square&logo=react&logoColor=55ddec" alt="React">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-<img src="https://img.shields.io/badge/Azure_%2F_Fabric-163448?style=flat-square" alt="Azure and Microsoft Fabric">
+<img src="https://img.shields.io/badge/Azure-163448?style=flat-square" alt="Azure">
 </p>
 
 | Work | Tools in context |
@@ -241,17 +241,21 @@ Pick a lane. There are operational tools, native apps, enterprise workflows and 
 <details>
 <summary><b>More tools, frameworks and things I've experimented with</b></summary>
 
-Web: Next.js, Tailwind CSS, Angular, Node.js, FastAPI, REST APIs and webhooks.
+Web: Next.js, Tailwind CSS, Angular, Vue, Blazor, Node.js, FastAPI and ASP.NET Core with Entity Framework Core.
 
-Data: PostgreSQL, Supabase, Firebase, NumPy, Jupyter, Power BI, Excel and Power Query.
+Mobile: SwiftUI, SwiftData, StoreKit 2, WidgetKit, .NET MAUI and Jetpack Compose.
 
-AI: Ollama, retrieval, tool calling, model APIs, evaluation and scraping workflows.
+Enterprise: Java with Jakarta EE on WildFly, Oracle and SQL Server, Azure Service Bus, Business Central (AL) and EDI.
 
-Delivery: GitHub Actions, Docker, Vercel, Bicep, Xcode and TestFlight.
+Data: PostgreSQL, Supabase, pandas, scikit-learn, dbt, Streamlit, Power BI with DAX, Excel and Power Query.
 
-Product: BPMN, BRDs, acceptance criteria, MoSCoW, Figma, Jira, Confluence and Miro.
+AI: Claude, OpenAI, Ollama, Azure AI Foundry, the Vercel AI SDK and Firecrawl.
 
-**[Open the full badge wall →](TOOLBOX.md)** · These are tools used or explored; repositories show their actual scope.
+Delivery: GitHub Actions, Docker, Azure Container Apps with Bicep, Vercel, Playwright, pytest, xUnit, k6, Grafana and OpenTelemetry.
+
+Product: BPMN, Gherkin acceptance criteria, BRDs, MoSCoW, user stories and Figma.
+
+**[Open the full badge wall →](TOOLBOX.md)** · Linked badges open a public repository that uses the tool.
 
 </details>
 

@@ -1,0 +1,1006 @@
+{
+ "sections": [
+  {
+   "title": "Languages",
+   "tools": [
+    {
+     "name": "TypeScript",
+     "color": "3178C6",
+     "logo": "typescript",
+     "detect": "lang:TypeScript|\"typescript\":",
+     "repo": "portpulse"
+    },
+    {
+     "name": "JavaScript",
+     "color": "F7DF1E",
+     "logo": "javascript",
+     "logo_color": "black",
+     "detect": "lang:JavaScript",
+     "repo": "port-container-tracker"
+    },
+    {
+     "name": "Python",
+     "color": "3776AB",
+     "logo": "python",
+     "detect": "lang:Python",
+     "repo": "python-data-analytics-project"
+    },
+    {
+     "name": "Swift",
+     "color": "FA7343",
+     "logo": "swift",
+     "detect": "lang:Swift",
+     "repo": "health-intake-pipeline"
+    },
+    {
+     "name": "C#",
+     "color": "512BD4",
+     "logo": "dotnet",
+     "detect": "lang:C#",
+     "repo": "docurelay-field"
+    },
+    {
+     "name": "Java",
+     "color": "ED8B00",
+     "logo": "openjdk",
+     "detect": "lang:Java\\b",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "Kotlin",
+     "color": "7F52FF",
+     "logo": "kotlin",
+     "detect": "lang:Kotlin"
+    },
+    {
+     "name": "SQL",
+     "color": "336791",
+     "detect": "\\.sql$|lang:PLpgSQL|lang:TSQL",
+     "repo": "python-data-analytics-project"
+    },
+    {
+     "name": "PL/SQL",
+     "color": "F80000",
+     "detect": "lang:PLSQL|\\.(pks|pkb)$",
+     "repo": "portflow-terminal-case-study"
+    },
+    {
+     "name": "Groovy",
+     "color": "4298B8",
+     "logo": "apachegroovy",
+     "detect": "lang:Groovy",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "Bash",
+     "color": "4EAA25",
+     "logo": "gnubash",
+     "detect": "lang:Shell",
+     "repo": "GH-900-foundations-lab"
+    },
+    {
+     "name": "AL",
+     "color": "0B556A",
+     "detect": "\\.al$",
+     "repo": "digital-transformation-analyst-portfolio"
+    }
+   ]
+  },
+  {
+   "title": "Web and UI",
+   "tools": [
+    {
+     "name": "React",
+     "color": "61DAFB",
+     "logo": "react",
+     "logo_color": "black",
+     "detect": "\"react\":",
+     "repo": "portpulse"
+    },
+    {
+     "name": "Next.js",
+     "color": "000000",
+     "logo": "nextdotjs",
+     "detect": "\"next\":",
+     "repo": "LocalMind"
+    },
+    {
+     "name": "Vue.js",
+     "color": "4FC08D",
+     "logo": "vuedotjs",
+     "detect": "\"vue\":",
+     "repo": "ledgerflow-belgium"
+    },
+    {
+     "name": "Angular",
+     "color": "DD0031",
+     "logo": "angular",
+     "detect": "\"@angular/core\":",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "Blazor",
+     "color": "512BD4",
+     "logo": "blazor",
+     "detect": "\\.razor$",
+     "repo": "business-central-agentic-operations"
+    },
+    {
+     "name": "Tailwind CSS",
+     "color": "06B6D4",
+     "logo": "tailwindcss",
+     "detect": "\"tailwindcss\":",
+     "repo": "portpulse"
+    },
+    {
+     "name": "shadcn/ui",
+     "color": "000000",
+     "logo": "shadcnui",
+     "detect": "\"(shadcn|@shadcn/react|@radix-ui/react-slot)\":"
+    },
+    {
+     "name": "Vite",
+     "color": "646CFF",
+     "logo": "vite",
+     "detect": "\"vite\":",
+     "repo": "portpulse"
+    },
+    {
+     "name": "Recharts",
+     "color": "22B5BF",
+     "detect": "\"recharts\":",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "HTML5",
+     "color": "E34F26",
+     "logo": "html5",
+     "detect": "lang:HTML",
+     "repo": "terminal-operating-system-sim"
+    },
+    {
+     "name": "CSS3",
+     "color": "1572B6",
+     "logo": "css",
+     "detect": "lang:CSS",
+     "repo": "ClickTrack"
+    }
+   ]
+  },
+  {
+   "title": "Apple and Mobile",
+   "tools": [
+    {
+     "name": "SwiftUI",
+     "color": "0D96F6",
+     "logo": "swift",
+     "detect": "import:SwiftUI",
+     "repo": "health-intake-pipeline"
+    },
+    {
+     "name": "UIKit",
+     "color": "2396F3",
+     "logo": "apple",
+     "detect": "import:UIKit",
+     "repo": "health-intake-pipeline"
+    },
+    {
+     "name": "AppKit",
+     "color": "111111",
+     "logo": "apple",
+     "detect": "import:AppKit"
+    },
+    {
+     "name": "SwiftData",
+     "color": "FA7343",
+     "logo": "swift",
+     "detect": "import:SwiftData"
+    },
+    {
+     "name": "Swift Charts",
+     "color": "FA7343",
+     "logo": "swift",
+     "detect": "import:Charts"
+    },
+    {
+     "name": "AVFoundation",
+     "color": "111111",
+     "logo": "apple",
+     "detect": "import:AVFoundation",
+     "repo": "health-intake-pipeline"
+    },
+    {
+     "name": "Vision",
+     "color": "111111",
+     "logo": "apple",
+     "detect": "import:Vision\\b",
+     "repo": "health-intake-pipeline"
+    },
+    {
+     "name": "MapKit",
+     "color": "34C759",
+     "logo": "apple",
+     "detect": "import:MapKit"
+    },
+    {
+     "name": "Core Location",
+     "color": "34C759",
+     "logo": "apple",
+     "detect": "import:CoreLocation"
+    },
+    {
+     "name": "WeatherKit",
+     "color": "0D96F6",
+     "logo": "apple",
+     "detect": "import:WeatherKit"
+    },
+    {
+     "name": "HealthKit",
+     "color": "FF2D55",
+     "logo": "apple",
+     "detect": "import:HealthKit"
+    },
+    {
+     "name": "StoreKit 2",
+     "color": "34C759",
+     "logo": "apple",
+     "detect": "import:StoreKit\\b"
+    },
+    {
+     "name": "WidgetKit",
+     "color": "0D96F6",
+     "logo": "apple",
+     "detect": "import:WidgetKit"
+    },
+    {
+     "name": "ActivityKit",
+     "color": "0D96F6",
+     "logo": "apple",
+     "detect": "import:ActivityKit"
+    },
+    {
+     "name": "App Intents",
+     "color": "0D96F6",
+     "logo": "apple",
+     "detect": "import:AppIntents"
+    },
+    {
+     "name": ".NET MAUI",
+     "color": "512BD4",
+     "logo": "dotnet",
+     "detect": "Microsoft\\.Maui",
+     "repo": "docurelay-field"
+    },
+    {
+     "name": "Android",
+     "color": "3DDC84",
+     "logo": "android",
+     "detect": "com\\.android\\.application"
+    },
+    {
+     "name": "Jetpack Compose",
+     "color": "4285F4",
+     "logo": "jetpackcompose",
+     "detect": "androidx\\.compose"
+    }
+   ]
+  },
+  {
+   "title": "Backend and APIs",
+   "tools": [
+    {
+     "name": "Node.js",
+     "color": "339933",
+     "logo": "nodedotjs",
+     "detect": "\"express\":|\"fastify\":|\"@types/node\":",
+     "repo": "shipment-exception-management-business-analysis"
+    },
+    {
+     "name": "Express",
+     "color": "000000",
+     "logo": "express",
+     "detect": "\"express\":",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "Fastify",
+     "color": "000000",
+     "logo": "fastify",
+     "detect": "\"fastify\":",
+     "repo": "ledgerflow-belgium"
+    },
+    {
+     "name": "FastAPI",
+     "color": "009688",
+     "logo": "fastapi",
+     "detect": "(?im)^\\s*\\\"?fastapi",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "ASP.NET Core",
+     "color": "512BD4",
+     "logo": "dotnet",
+     "detect": "Microsoft\\.NET\\.Sdk\\.Web",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "SignalR",
+     "color": "512BD4",
+     "logo": "dotnet",
+     "detect": "signalr",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "Entity Framework Core",
+     "color": "512BD4",
+     "logo": "dotnet",
+     "detect": "Microsoft\\.EntityFrameworkCore",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "Jakarta EE",
+     "color": "F7931E",
+     "detect": "jakarta\\.(jakartaee|servlet)",
+     "repo": "ico-role-execution"
+    },
+    {
+     "name": "WildFly",
+     "color": "B41717",
+     "logo": "redhat",
+     "detect": "wildfly",
+     "repo": "digital-transformation-analyst-portfolio"
+    },
+    {
+     "name": "Prisma",
+     "color": "2D3748",
+     "logo": "prisma",
+     "detect": "\"prisma\":|schema\\.prisma",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "Drizzle",
+     "color": "C5F74F",
+     "logo": "drizzle",
+     "logo_color": "black",
+     "detect": "\"drizzle-orm\":"
+    },
+    {
+     "name": "SQLAlchemy",
+     "color": "D71F00",
+     "logo": "sqlalchemy",
+     "detect": "(?im)^\\s*\\\"?sqlalchemy",
+     "repo": "environmental-sensor-data-platform"
+    },
+    {
+     "name": "Supabase",
+     "color": "3ECF8E",
+     "logo": "supabase",
+     "logo_color": "black",
+     "detect": "supabase",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "Firebase",
+     "color": "FFCA28",
+     "logo": "firebase",
+     "logo_color": "black",
+     "detect": "firebase"
+    },
+    {
+     "name": "Azure Service Bus",
+     "color": "0078D4",
+     "detect": "Azure\\.Messaging\\.ServiceBus",
+     "repo": "docurelay-field"
+    },
+    {
+     "name": "MQTT",
+     "color": "660066",
+     "logo": "mqtt",
+     "detect": "paho-mqtt|mosquitto|\\\"mqtt\\\":",
+     "repo": "environmental-sensor-data-platform"
+    },
+    {
+     "name": "ThingsBoard",
+     "color": "305680",
+     "detect": "thingsboard",
+     "repo": "environmental-sensor-data-platform"
+    },
+    {
+     "name": "Business Central",
+     "color": "0B556A",
+     "detect": "\\.al$|BusinessCentral",
+     "repo": "digital-transformation-analyst-portfolio"
+    }
+   ]
+  },
+  {
+   "title": "Data and Analytics",
+   "tools": [
+    {
+     "name": "PostgreSQL",
+     "color": "4169E1",
+     "logo": "postgresql",
+     "detect": "postgres|psycopg|\\\"pg\\\":|Npgsql",
+     "repo": "python-data-analytics-project"
+    },
+    {
+     "name": "SQL Server",
+     "color": "CC2927",
+     "detect": "mssql|EntityFrameworkCore\\.SqlServer|Microsoft\\.Data\\.SqlClient",
+     "repo": "shipment-tracking-platform"
+    },
+    {
+     "name": "Oracle Database",
+     "color": "F80000",
+     "detect": "oracle-free|ojdbc|\\.(pks|pkb)$",
+     "repo": "digital-transformation-analyst-portfolio"
+    },
+    {
+     "name": "SQLite",
+     "color": "003B57",
+     "logo": "sqlite",
+     "detect": "sqlite",
+     "repo": "harbor-pulse"
+    },
+    {
+     "name": "Redis",
+     "color": "DC382D",
+     "logo": "redis",
+     "detect": "redis",
+     "repo": "shipment-tracking-platform"
+    },
+    {
+     "name": "pandas",
+     "color": "150458",
+     "logo": "pandas",
+     "detect": "(?im)^\\s*\\\"?pandas",
+     "repo": "environmental-sensor-data-platform"
+    },
+    {
+     "name": "NumPy",
+     "color": "013243",
+     "logo": "numpy",
+     "detect": "(?im)^\\s*\\\"?numpy",
+     "repo": "environmental-sensor-data-platform"
+    },
+    {
+     "name": "scikit-learn",
+     "color": "F7931E",
+     "logo": "scikitlearn",
+     "detect": "scikit-learn",
+     "repo": "hr-analytics-segmentation"
+    },
+    {
+     "name": "matplotlib",
+     "color": "11557C",
+     "logo": "python",
+     "detect": "matplotlib",
+     "repo": "python-data-analytics-lab"
+    },
+    {
+     "name": "Plotly",
+     "color": "3F4F75",
+     "logo": "plotly",
+     "detect": "plotly",
+     "repo": "python-data-analytics-lab"
+    },
+    {
+     "name": "Streamlit",
+     "color": "FF4B4B",
+     "logo": "streamlit",
+     "detect": "streamlit",
+     "repo": "belgium-mobility-weather-etl"
+    },
+    {
+     "name": "dbt",
+     "color": "FF694B",
+     "detect": "dbt_project\\.yml",
+     "repo": "belgium-mobility-weather-etl"
+    },
+    {
+     "name": "Power BI",
+     "color": "F2C811",
+     "detect": "\\.(pbir|pbip|bim|dax)$|powerbi",
+     "repo": "harbor-pulse"
+    },
+    {
+     "name": "DAX",
+     "color": "F2C811",
+     "detect": "\\.dax$",
+     "repo": "belgium-pulse"
+    },
+    {
+     "name": "Power Query",
+     "color": "217346",
+     "detect": "\\.pq$|lang:Power Query",
+     "repo": "belgium-pulse"
+    },
+    {
+     "name": "Excel",
+     "color": "217346",
+     "detect": "\\.xlsx$",
+     "repo": "cargo-dwell-time-analysis"
+    }
+   ]
+  },
+  {
+   "title": "AI and Automation",
+   "tools": [
+    {
+     "name": "Claude",
+     "color": "191919",
+     "logo": "claude",
+     "detect": "anthropic"
+    },
+    {
+     "name": "OpenAI",
+     "color": "412991",
+     "detect": "openai"
+    },
+    {
+     "name": "Ollama",
+     "color": "000000",
+     "logo": "ollama",
+     "detect": "ollama",
+     "repo": "LocalMind"
+    },
+    {
+     "name": "Vercel AI SDK",
+     "color": "000000",
+     "logo": "vercel",
+     "detect": "\"ai\":"
+    },
+    {
+     "name": "Azure AI Foundry",
+     "color": "0078D4",
+     "detect": "azure-ai-projects|foundry",
+     "repo": "digital-transformation-analyst-portfolio"
+    },
+    {
+     "name": "Firecrawl",
+     "color": "F97316",
+     "detect": "firecrawl",
+     "repo": "Logistics-Master"
+    }
+   ]
+  },
+  {
+   "title": "Cloud and Infrastructure",
+   "tools": [
+    {
+     "name": "Azure",
+     "color": "0078D4",
+     "detect": "azure/login|\\baz (acr|deployment|group|containerapp|webapp)|\\.bicep$",
+     "repo": "business-central-agentic-operations"
+    },
+    {
+     "name": "Azure Container Apps",
+     "color": "0078D4",
+     "detect": "containerapp",
+     "repo": "docurelay-field"
+    },
+    {
+     "name": "Bicep",
+     "color": "0078D4",
+     "detect": "\\.bicep$",
+     "repo": "bicep-lab"
+    },
+    {
+     "name": "Pulumi",
+     "color": "8A3391",
+     "logo": "pulumi",
+     "detect": "@pulumi/pulumi|Pulumi\\.yaml",
+     "repo": "ledgerflow-belgium"
+    },
+    {
+     "name": "Docker",
+     "color": "2496ED",
+     "logo": "docker",
+     "detect": "Dockerfile|compose\\.ya?ml",
+     "repo": "shipment-tracking-platform"
+    },
+    {
+     "name": "Vercel",
+     "color": "000000",
+     "logo": "vercel",
+     "detect": "vercel\\.json|\\\"@vercel/",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "Cloudflare Workers",
+     "color": "F38020",
+     "logo": "cloudflareworkers",
+     "detect": "wrangler"
+    },
+    {
+     "name": "GitHub Actions",
+     "color": "2088FF",
+     "logo": "githubactions",
+     "detect": "\\.github/workflows/",
+     "repo": "portflow-terminal-case-study"
+    },
+    {
+     "name": "GitHub Pages",
+     "color": "222222",
+     "logo": "githubpages",
+     "detect": "deploy-pages",
+     "repo": "buildflow-digital-transformation"
+    }
+   ]
+  },
+  {
+   "title": "Testing and Quality",
+   "tools": [
+    {
+     "name": "Playwright",
+     "color": "2EAD33",
+     "detect": "\"@playwright/test\":|\"playwright\":",
+     "repo": "shipment-exception-management-business-analysis"
+    },
+    {
+     "name": "Vitest",
+     "color": "6E9F18",
+     "logo": "vitest",
+     "detect": "\"vitest\":",
+     "repo": "ledgerflow-belgium"
+    },
+    {
+     "name": "Jest",
+     "color": "C21325",
+     "logo": "jest",
+     "detect": "\"jest\":",
+     "repo": "digital-transformation-analyst-portfolio"
+    },
+    {
+     "name": "pytest",
+     "color": "0A9EDC",
+     "logo": "pytest",
+     "detect": "(?im)^\\s*\\\"?pytest",
+     "repo": "python-data-analytics-project"
+    },
+    {
+     "name": "xUnit",
+     "color": "512BD4",
+     "logo": "dotnet",
+     "detect": "Include=\"xunit\"",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "XCTest",
+     "color": "147EFB",
+     "logo": "xcode",
+     "detect": "import:XCTest|import:Testing",
+     "repo": "health-intake-pipeline"
+    },
+    {
+     "name": "Testcontainers",
+     "color": "291A3F",
+     "detect": "Testcontainers",
+     "repo": "shipment-tracking-platform"
+    },
+    {
+     "name": "k6",
+     "color": "7D64FF",
+     "logo": "k6",
+     "detect": "\\.k6\\.js$|k6-",
+     "repo": "grafana-observability-lab"
+    },
+    {
+     "name": "axe-core",
+     "color": "663399",
+     "detect": "@axe-core",
+     "repo": "harbor-pulse"
+    },
+    {
+     "name": "ESLint",
+     "color": "4B32C3",
+     "logo": "eslint",
+     "detect": "\"eslint\":",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "Ruff",
+     "color": "D7FF64",
+     "logo": "ruff",
+     "logo_color": "black",
+     "detect": "ruff",
+     "repo": "harbor-pulse"
+    },
+    {
+     "name": "mypy",
+     "color": "2A6DB2",
+     "logo": "python",
+     "detect": "mypy",
+     "repo": "environmental-sensor-data-platform"
+    },
+    {
+     "name": "SQLFluff",
+     "color": "2D3748",
+     "detect": "sqlfluff",
+     "repo": "harbor-pulse"
+    },
+    {
+     "name": "pre-commit",
+     "color": "FAB040",
+     "logo": "precommit",
+     "logo_color": "black",
+     "detect": "pre-commit",
+     "repo": "environmental-sensor-data-platform"
+    },
+    {
+     "name": "gitleaks",
+     "color": "CB2431",
+     "detect": "gitleaks",
+     "repo": "harbor-pulse"
+    }
+   ]
+  },
+  {
+   "title": "Observability",
+   "tools": [
+    {
+     "name": "Grafana",
+     "color": "F46800",
+     "logo": "grafana",
+     "detect": "grafana",
+     "repo": "grafana-observability-lab"
+    },
+    {
+     "name": "OpenTelemetry",
+     "color": "000000",
+     "logo": "opentelemetry",
+     "detect": "opentelemetry|OpenTelemetry",
+     "repo": "grafana-observability-lab"
+    },
+    {
+     "name": "Application Insights",
+     "color": "0078D4",
+     "detect": "ApplicationInsights|Azure\\.Monitor",
+     "repo": "shipment-tracking-platform"
+    },
+    {
+     "name": "Sentry",
+     "color": "362D59",
+     "logo": "sentry",
+     "detect": "@sentry/"
+    }
+   ]
+  },
+  {
+   "title": "Developer Tools",
+   "tools": [
+    {
+     "name": "Git",
+     "color": "F05032",
+     "logo": "git"
+    },
+    {
+     "name": "GitHub",
+     "color": "181717",
+     "logo": "github"
+    },
+    {
+     "name": "VS Code",
+     "color": "007ACC"
+    },
+    {
+     "name": "Xcode",
+     "color": "147EFB",
+     "logo": "xcode",
+     "detect": "\\.xcodeproj/|import:SwiftUI",
+     "repo": "health-intake-pipeline"
+    },
+    {
+     "name": "XcodeGen",
+     "color": "147EFB",
+     "logo": "xcode",
+     "detect": "xcodegen|^project\\.yml$",
+     "repo": "health-intake-pipeline"
+    },
+    {
+     "name": "fastlane",
+     "color": "00F200",
+     "logo": "fastlane",
+     "logo_color": "black",
+     "detect": "Fastfile"
+    },
+    {
+     "name": "npm",
+     "color": "CB3837",
+     "logo": "npm",
+     "detect": "package\\.json",
+     "repo": "portpulse"
+    },
+    {
+     "name": "uv",
+     "color": "DE5FE9",
+     "logo": "uv",
+     "detect": "uv\\.lock|setup-uv",
+     "repo": "harbor-pulse"
+    },
+    {
+     "name": "Maven",
+     "color": "C71A36",
+     "logo": "apachemaven",
+     "detect": "pom\\.xml",
+     "repo": "digital-transformation-analyst-portfolio"
+    },
+    {
+     "name": "Gradle",
+     "color": "02303A",
+     "logo": "gradle",
+     "detect": "build\\.gradle",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "Postman",
+     "color": "FF6C37",
+     "logo": "postman",
+     "detect": "postman"
+    }
+   ]
+  },
+  {
+   "title": "Release and Monetisation",
+   "tools": [
+    {
+     "name": "App Store Connect",
+     "color": "0D96F6",
+     "logo": "appstore",
+     "detect": "\\.storekit$|import:StoreKit\\b"
+    },
+    {
+     "name": "TestFlight",
+     "color": "0D96F6",
+     "logo": "apple",
+     "detect": "testflight"
+    },
+    {
+     "name": "Stripe",
+     "color": "635BFF",
+     "logo": "stripe",
+     "detect": "\"stripe\":"
+    },
+    {
+     "name": "RevenueCat",
+     "color": "F25A2B",
+     "logo": "revenuecat",
+     "detect": "revenuecat|import:RevenueCat"
+    },
+    {
+     "name": "Google AdMob",
+     "color": "EA4335",
+     "logo": "googleadmob",
+     "detect": "import:GoogleMobileAds"
+    },
+    {
+     "name": "OneSignal",
+     "color": "E54B4D",
+     "detect": "import:OneSignal"
+    },
+    {
+     "name": "Resend",
+     "color": "000000",
+     "logo": "resend",
+     "detect": "\"resend\":",
+     "repo": "Logistics-Master"
+    }
+   ]
+  },
+  {
+   "title": "Methods and Patterns",
+   "tools": [
+    {
+     "name": "BPMN",
+     "color": "0d0d0d",
+     "detect": "\\.bpmn$",
+     "repo": "buildflow-digital-transformation"
+    },
+    {
+     "name": "Gherkin",
+     "color": "23D96C",
+     "logo": "cucumber",
+     "logo_color": "black",
+     "detect": "\\.feature$",
+     "repo": "shortsea-booking-functional-analysis"
+    },
+    {
+     "name": "BRD / specs",
+     "color": "0d0d0d"
+    },
+    {
+     "name": "User Stories",
+     "color": "0d0d0d"
+    },
+    {
+     "name": "MoSCoW",
+     "color": "0d0d0d"
+    },
+    {
+     "name": "KPI Dashboards",
+     "color": "0d0d0d"
+    },
+    {
+     "name": "OpenAPI",
+     "color": "6BA539",
+     "logo": "openapiinitiative",
+     "detect": "openapi|swagger",
+     "repo": "buildflow-digital-transformation"
+    },
+    {
+     "name": "REST APIs",
+     "color": "0d0d0d"
+    },
+    {
+     "name": "Webhooks",
+     "color": "0d0d0d",
+     "detect": "webhook",
+     "repo": "buildflow-digital-transformation"
+    },
+    {
+     "name": "EDI",
+     "color": "0d0d0d",
+     "detect": "\\.edi$|edifact",
+     "repo": "portflow-terminal-case-study"
+    },
+    {
+     "name": "CQRS",
+     "color": "0d0d0d",
+     "detect": "MediatR",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "Domain-Driven Design",
+     "color": "0d0d0d"
+    }
+   ]
+  },
+  {
+   "title": "Office and Design",
+   "tools": [
+    {
+     "name": "Figma",
+     "color": "F24E1E",
+     "logo": "figma"
+    },
+    {
+     "name": "Word",
+     "color": "2B579A",
+     "detect": "\\.docx$",
+     "repo": "sme-copilot-agent-automation-case"
+    },
+    {
+     "name": "PowerPoint",
+     "color": "B7472A",
+     "detect": "\\.pptx$",
+     "repo": "shipment-exception-management-business-analysis"
+    },
+    {
+     "name": "Teams",
+     "color": "6264A7"
+    },
+    {
+     "name": "SharePoint",
+     "color": "0078D4"
+    }
+   ]
+  },
+  {
+   "title": "Explored",
+   "tools": [
+    {
+     "name": "Microsoft Fabric",
+     "color": "0d0d0d",
+     "detect": "fabric",
+     "repo": "belgium-pulse"
+    },
+    {
+     "name": "Oracle APEX",
+     "color": "F80000",
+     "detect": "apex",
+     "repo": "ico-role-execution"
+    }
+   ]
+  }
+ ]
+}
