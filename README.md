@@ -370,17 +370,17 @@ A few concrete checkpoints from the public build log:
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
-| [sme-copilot-agent-automation-case](https://github.com/phlppgdfry/sme-copilot-agent-automation-case) | 2026-10-11 |
-| [harbor-pulse](https://github.com/phlppgdfry/harbor-pulse) | 2026-10-10 |
-| [manufacturing-process-architecture-case](https://github.com/phlppgdfry/manufacturing-process-architecture-case) | 2026-10-10 |
-| [shortsea-booking-functional-analysis](https://github.com/phlppgdfry/shortsea-booking-functional-analysis) | 2026-10-10 |
-| [shipment-exception-management-business-analysis](https://github.com/phlppgdfry/shipment-exception-management-business-analysis) | 2026-10-09 |
+| [storm-night-disruption-business-analysis](https://github.com/phlppgdfry/storm-night-disruption-business-analysis) | 2026-10-12 |
+| [shipment-exception-management-business-analysis](https://github.com/phlppgdfry/shipment-exception-management-business-analysis) | 2026-10-12 |
+| [business-central-agentic-operations](https://github.com/phlppgdfry/business-central-agentic-operations) | 2026-10-12 |
+| [logistics-kpi-utils](https://github.com/phlppgdfry/logistics-kpi-utils) | 2026-10-12 |
+| [portops-ai](https://github.com/phlppgdfry/portops-ai) | 2026-10-12 |
 
 **Latest stable releases from the featured release watchlist**
 
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-10-11 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>
+<sub>Snapshot: 2026-10-12 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
