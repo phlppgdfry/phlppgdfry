@@ -44,7 +44,7 @@ philippe:
 
 ## Delivery boards & reusable packages
 
-Follow the work from a prioritized issue to a tested release. The boards distinguish completed delivery from planned improvements; the packages are public **0.1.0 previews** with documentation and automated checks.
+Follow the work from a prioritized issue to a tested release. The boards distinguish completed delivery from planned improvements; the packages are public **0.2.0 previews** with documentation and automated checks.
 
 | Delivery board | Scope |
 | :--- | :--- |
@@ -58,6 +58,10 @@ Follow the work from a prioritized issue to a tested release. The boards disting
 | [Logistics KPI Utils · npm](https://github.com/users/phlppgdfry/packages/npm/package/logistics-kpi-utils) | Calculate dwell time, signed delay and completed-arrival on-time rates | [Metric definitions and examples](https://github.com/phlppgdfry/logistics-kpi-utils) |
 
 GitHub's npm and NuGet registries require authentication for installation; both releases also provide downloadable artifacts. The container is public. Examples use synthetic data, and package publication does not imply a production deployment.
+
+**Connected demonstration:** [Shipment Desk walkthrough](https://github.com/phlppgdfry/shipment-tracking-platform/blob/master/docs/DEMO.md) · [Watch the recorded 22-second flow](https://github.com/phlppgdfry/shipment-tracking-platform/blob/master/docs/assets/shipment-desk-walkthrough.mp4) · [Verification evidence](https://github.com/phlppgdfry/shipment-tracking-platform/blob/master/docs/VERIFICATION.md)
+
+<a href="https://github.com/phlppgdfry/shipment-tracking-platform/blob/master/docs/DEMO.md"><img src="https://raw.githubusercontent.com/phlppgdfry/shipment-tracking-platform/master/docs/assets/shipment-desk-desktop.png" width="900" alt="Actual Shipment Desk baseline: synthetic records, real API, SQL persistence, source evidence and package-powered KPIs"></a>
 
 [Uitleg in het Nederlands: wat dit toevoegt en hoe je het onderhoudt →](PROJECTS_AND_PACKAGES_NL.md)
 

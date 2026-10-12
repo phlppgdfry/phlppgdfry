@@ -57,3 +57,11 @@ A data platform is easier to understand when its raw inputs, transformations and
 ---
 
 [Back to the museum](README.md#museum-of-questionable-decisions) · [Browse all projects](PROJECTS.md)
+
+## Connected packages and a real operational desk
+
+Shipment Desk consumes the released PortOps.Contracts and Logistics KPI Utils 0.2.0 packages. Source observations and actual/forecast times remain distinct; the dashboard shows denominators and excludes unknown/conflicting data instead of presenting false certainty. The API enforces customer scope across queries, caches, documents and replays.
+
+A complete status cycle uncovered an existing EF history-insert problem: manually assigned history GUIDs needed explicit non-generated key semantics. The fix is verified in HTTP and real SQL tests, including upgrade of older ownership records.
+
+[Working scenario and recording](https://github.com/phlppgdfry/shipment-tracking-platform/blob/master/docs/DEMO.md) · [Checks and limitations](https://github.com/phlppgdfry/shipment-tracking-platform/blob/master/docs/VERIFICATION.md) · [Successful repeatable CI](https://github.com/phlppgdfry/shipment-tracking-platform/actions/runs/38315102599)
