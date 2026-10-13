@@ -61,7 +61,7 @@ class ContentTests(unittest.TestCase):
     def test_covers_and_harbor_destinations(self):
         text=(ROOT/'README.md').read_text()
         self.assertNotIn('<td width="50%"',text)
-        self.assertEqual(len(re.findall(r'src="assets/cover-',text)),6)
+        self.assertEqual(len(re.findall(r'src="assets/cover-',text)),7)
         self.assertEqual(len(re.findall(r'<a href="[^"]+"><img src="assets/district-',text)),4)
 
 class ToolboxTests(unittest.TestCase):

@@ -4,7 +4,7 @@
 
 ## Content map
 
-- `README.md`: curated front page, six featured projects and generated public activity.
+- `README.md`: curated front page, seven featured projects and generated public activity.
 - `INDIE_DEV.md`, `BA_PROFILE.md`, `PROFESSIONAL.md`, `PERSONAL.md`: four reading routes.
 - `PROJECTS.md`: full catalog, reviewed on 2026-09-09; update classifications when project scope changes.
 - `TOOLBOX.md`: full technology list, generated from `data/toolbox.json`.
@@ -39,7 +39,7 @@ Run `python3 scripts/scan_toolbox.py` with an authenticated GitHub CLI every few
 
 ## Suggested pinned repositories
 
-Recommended order: **Logistics-Master**, **portops-ai**, **ClickTrack**, **MirrorMate-App**, **docurelay-field**, **fabric-lottery-data-platform**. The README already presents this selection. GitHub's profile pin selection is separate from this repository.
+Recommended order: **logistics-ai-automation-case-study**, **Logistics-Master**, **portops-ai**, **ClickTrack**, **MirrorMate-App**, **docurelay-field**, **fabric-lottery-data-platform**. The README already presents this selection. GitHub's profile pin selection is separate from this repository.
 
 ## Review before publishing
 
@@ -51,7 +51,7 @@ Check local links, Markdown tables, image alt text, GIF frame counts, SVG validi
 
 `data/showcase.json` is the curated list counted by the activity card. Its categories are `app`, `browser_demo` and `recorded_workflow`. Counts describe linked destinations, not live service health. Revisit the dated side quest monthly.
 
-Run `python3 scripts/build_preview_visuals.py` to rebuild the six code-native SVG covers, four harbor district tiles and two editorial GIFs. The harbor uses individually linked images because embedded SVG image links are not a reliable navigation mechanism in a GitHub README. No JavaScript or custom CSS is required.
+Run `python3 scripts/build_preview_visuals.py` to rebuild the seven code-native SVG covers, four harbor district tiles and two editorial GIFs. The harbor uses individually linked images because embedded SVG image links are not a reliable navigation mechanism in a GitHub README. No JavaScript or custom CSS is required.
 
 New asset provenance: `docurelay.png` is an unaltered copy of `phlppgdfry/docurelay-field/docs/assets/android-runtime-postfix.png`. All `action-*.svg`, `cover-*.svg`, `district-*.svg`, `query-plot-twist.gif` and `release-checklist.gif` assets are original generated illustrations, not screenshots or recordings.
 
