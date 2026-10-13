@@ -10,6 +10,7 @@ Apps, prototypes, studies and learning exercises sit together here. Company-spec
 
 | Project | Scope | What you will find |
 | :--- | :--- | :--- |
+| [logistics-ai-automation-case-study](https://github.com/phlppgdfry/logistics-ai-automation-case-study) | Portfolio case study | Customer email automation for a fictional logistics company: Copilot Studio agent, Power Automate flow on a TMS API, 18 policy rules, 48-email evaluation set, business case and [live demo](https://phlppgdfry.github.io/logistics-ai-automation-case-study/demo/?tour). |
 | [portops-ai](https://github.com/phlppgdfry/portops-ai) | Local prototype | Investigate RoRo readiness and exceptions with evidence and reviewable action drafts. |
 | [Logistics-Master](https://github.com/phlppgdfry/Logistics-Master) | Portfolio hub | Central portfolio of logistics prototypes, operational tools and research. |
 | [cargo-dwell-time-analysis](https://github.com/phlppgdfry/cargo-dwell-time-analysis) | Portfolio project | Cargo dwell time analysis — port terminal data processing and KPI visualization |

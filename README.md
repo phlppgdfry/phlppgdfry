@@ -55,7 +55,28 @@ Four districts, one slightly overcommitted builder. **Click a district to enter.
 
 ## Featured projects
 
-Six projects, each with a different job to do. Open the screenshots and build notes for a closer look.
+Seven projects, each with a different job to do. Open the screenshots and build notes for a closer look.
+
+### 📬 Where is my delivery? — AI & automation case
+
+<a href="https://github.com/phlppgdfry/logistics-ai-automation-case-study"><img src="assets/cover-mailbox.svg" width="100%" alt="📬 Where is my delivery? — AI & automation case study · Copilot Studio / Power Automate"></a>
+
+A logistics mailbox where half the emails ask what the transport system already knows. A Copilot Studio agent reads each email, a Power Automate flow checks the TMS and 18 policy rules, and the reply goes out in minutes — never to the wrong person.
+
+**Portfolio case study · Copilot Studio / Power Automate / tested policy code.** [2-minute demo →](https://phlppgdfry.github.io/logistics-ai-automation-case-study/demo/?tour) · [Case →](https://github.com/phlppgdfry/logistics-ai-automation-case-study)
+
+<details>
+<summary><b>Behind the build: the model reads, the rules decide</b></summary>
+
+**Problem:** the quick demo gives a model the mailbox, a TMS tool and a send button. On a 48-email evaluation set that design harms in 23 cases: data to strangers, stale answers, cheerful status lines to angry customers, reply loops.
+
+**Design choice:** an agent without tools that only returns JSON; a flow with a read-only connector, sender authorisation per shipment and named rules; approved templates instead of generated text. Result: 48/48, zero harm, enforced in CI.
+
+**Next iteration:** build the agent and flow in a real tenant and run the agent's own evaluation. The browser demo uses a deterministic stand-in for the reading step; the company and figures are fictional.
+
+[Read the business case: capacity is not cash](https://github.com/phlppgdfry/logistics-ai-automation-case-study/blob/main/docs/05-business-case/business-case.md)
+
+</details>
 
 ### 🚢 Logistics Master
 
@@ -172,6 +193,7 @@ Capture evidence offline, keep it in a durable SQLite queue, then sync to an ASP
 
 | Focus | What I'm exploring |
 | :--- | :--- |
+| [Where is my delivery?](https://github.com/phlppgdfry/logistics-ai-automation-case-study) | Copilot Studio agents, Power Automate and policy rules you can test |
 | [PortOps AI](https://github.com/phlppgdfry/portops-ai) | Operational evidence, bounded agent tools and approval workflows |
 | [Fabric Data Platform](https://github.com/phlppgdfry/fabric-lottery-data-platform) | Data modelling, Medallion architecture and a staged engineering build |
 | [DocuRelay Field](https://github.com/phlppgdfry/docurelay-field) | Offline mobile state, reliable processing and Azure architecture |
@@ -187,7 +209,7 @@ Pick a lane. There are operational tools, native apps, enterprise workflows and 
 
 | Lane | Good places to start |
 | :--- | :--- |
-| 🚢 **Ports & logistics** | [Logistics Master](https://github.com/phlppgdfry/Logistics-Master) · [PortOps AI](https://github.com/phlppgdfry/portops-ai) · [PortPulse](https://github.com/phlppgdfry/portpulse) · [TOS simulator](https://github.com/phlppgdfry/terminal-operating-system-sim) |
+| 🚢 **Ports & logistics** | [Where is my delivery? (AI case)](https://github.com/phlppgdfry/logistics-ai-automation-case-study) · [Logistics Master](https://github.com/phlppgdfry/Logistics-Master) · [PortOps AI](https://github.com/phlppgdfry/portops-ai) · [PortPulse](https://github.com/phlppgdfry/portpulse) · [TOS simulator](https://github.com/phlppgdfry/terminal-operating-system-sim) |
 | 📊 **Data engineering & analytics** | [Fabric platform](https://github.com/phlppgdfry/fabric-lottery-data-platform) · [Sensor data platform](https://github.com/phlppgdfry/environmental-sensor-data-platform) · [Belgium mobility/weather ETL](https://github.com/phlppgdfry/belgium-mobility-weather-etl) · [Sales analytics](https://github.com/phlppgdfry/python-data-analytics-project) |
 | 🏢 **Enterprise & .NET** | [Shipment tracking](https://github.com/phlppgdfry/shipment-tracking-platform) · [Business Central operations](https://github.com/phlppgdfry/business-central-agentic-operations) · [DocuRelay](https://github.com/phlppgdfry/docurelay-field) · [Workwear ERP lab](https://github.com/phlppgdfry/workwear-erp-lab) |
 | 🍎 **Apps & utilities** | [ClickTrack](https://github.com/phlppgdfry/ClickTrack) · [MirrorMate](https://github.com/phlppgdfry/MirrorMate-App) · [Health intake case study](https://github.com/phlppgdfry/health-intake-pipeline) |
