@@ -396,17 +396,17 @@ A few concrete checkpoints from the public build log:
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
+| [occupational-health-analysis-case](https://github.com/phlppgdfry/occupational-health-analysis-case) | 2026-10-13 |
 | [logistics-ai-automation-case-study](https://github.com/phlppgdfry/logistics-ai-automation-case-study) | 2026-10-13 |
 | [business-central-implementation-case](https://github.com/phlppgdfry/business-central-implementation-case) | 2026-10-13 |
 | [pcf-yard-pulse](https://github.com/phlppgdfry/pcf-yard-pulse) | 2026-10-12 |
 | [shipment-tracking-platform](https://github.com/phlppgdfry/shipment-tracking-platform) | 2026-10-12 |
-| [portops-ai](https://github.com/phlppgdfry/portops-ai) | 2026-10-12 |
 
 **Latest stable releases from the featured release watchlist**
 
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-10-13 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>
+<sub>Snapshot: 2026-10-14 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
