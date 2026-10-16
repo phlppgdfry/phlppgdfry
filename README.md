@@ -396,17 +396,17 @@ A few concrete checkpoints from the public build log:
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
+| [construction-digital-transformation](https://github.com/phlppgdfry/construction-digital-transformation) | 2026-10-16 |
+| [fieldops-360](https://github.com/phlppgdfry/fieldops-360) | 2026-10-16 |
 | [accessflow-dotnet](https://github.com/phlppgdfry/accessflow-dotnet) | 2026-10-14 |
 | [occupational-health-analysis-case](https://github.com/phlppgdfry/occupational-health-analysis-case) | 2026-10-13 |
 | [logistics-ai-automation-case-study](https://github.com/phlppgdfry/logistics-ai-automation-case-study) | 2026-10-13 |
-| [business-central-implementation-case](https://github.com/phlppgdfry/business-central-implementation-case) | 2026-10-13 |
-| [pcf-yard-pulse](https://github.com/phlppgdfry/pcf-yard-pulse) | 2026-10-12 |
 
 **Latest stable releases from the featured release watchlist**
 
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-10-15 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>
+<sub>Snapshot: 2026-10-16 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
