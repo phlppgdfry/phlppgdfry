@@ -21,13 +21,14 @@ class ActivityTests(unittest.TestCase):
         release=dict(draft=False,prerelease=False,published_at='2026-09-01',tag_name='v1',html_url='https://github.com/example')
         def fake(path):
             if path.startswith('users/'):return repos
-            if '/ClickTrack/' in path:return [release,dict(release,draft=True),dict(release,prerelease=True)]
+            if '/ClickTrack/' in path:return [release,dict(release,draft=True,published_at='2026-09-03'),dict(release,prerelease=True,published_at='2026-09-02',tag_name='v2')]
             return []
         with patch.object(activity,'api',side_effect=fake):
             found,releases=activity.collect()
         self.assertEqual([r['name'] for r in found],['project'])
-        self.assertEqual(len(releases),1)
-        self.assertEqual(releases[0]['project'],'ClickTrack')
+        self.assertEqual([(r['project'],r['tag_name']) for r in releases],[('ClickTrack','v2')])
+        block,_=activity.render([],releases,'2026-09-09')
+        self.assertIn('v2](https://github.com/example) (preview)',block)
 
     def test_curated_counts_and_empty_release_state(self):
         showcase=json.loads((ROOT/'data/showcase.json').read_text())
@@ -35,7 +36,7 @@ class ActivityTests(unittest.TestCase):
         ET.fromstring(svg)
         self.assertIn('>2</text>',svg)
         self.assertIn('Browser demo',svg)
-        self.assertIn('No stable releases',block)
+        self.assertIn('No releases published',block)
         for item in showcase:self.assertIn(item['url'],block)
         self.assertEqual(len({x['url'] for x in showcase}),len(showcase))
         self.assertTrue(all(x['url'].startswith('https://') for x in showcase))

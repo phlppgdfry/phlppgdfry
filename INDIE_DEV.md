@@ -42,6 +42,20 @@ A native camera mirror for the Mac, accessible from the menu bar or a keyboard s
 
 **[Showcase](https://github.com/phlppgdfry/MirrorMate-App) · [App Store](https://apps.apple.com/us/app/mirrormate-menubar-mirror/id6752225278) · [Website](https://mirrormateapp.com)**
 
+### 🤳 ReflectBuddy — a pocket mirror on the App Store
+
+An iPhone app, live on the App Store since February 2025 as **Hand Mirror: HD, Light & Zoom**. It turns the front camera into a clear mirror, with a ring-light border for dark rooms, zoom and freeze frame. Nothing is saved.
+
+| Product detail | What to explore |
+| :--- | :--- |
+| Platform | iPhone and iPad; SwiftUI |
+| Experience | Ring-light border, one-handed zoom, freeze frame, mirror/true-view flip and a home-screen widget |
+| Product layer | Free download with in-app purchases (RevenueCat), ads (AdMob) and push notifications (OneSignal) |
+| Releases | Version 2.0.3 shipped in June 2026 |
+| Repository | Private source; no public showcase yet |
+
+**[App Store](https://apps.apple.com/us/app/hand-mirror-hd-light-zoom/id6738931920)**
+
 ## The experimental shelf
 
 | Project | Idea | Scope |
@@ -65,9 +79,11 @@ A native camera mirror for the Mac, accessible from the menu bar or a keyboard s
 
 ## Tools I reach for
 
-**Apple:** Swift, SwiftUI, AppKit, AVFoundation, StoreKit, Xcode.<br>
-**Web and prototypes:** TypeScript, React, Next.js, Python, APIs.<br>
-**Data and delivery:** SQLite, Supabase, GitHub Actions and release documentation.
+**Apple:** Swift, SwiftUI, AppKit, SwiftData, AVFoundation, Vision, WidgetKit, App Intents, StoreKit 2 and Xcode with XcodeGen.<br>
+**Release and monetisation:** App Store Connect, TestFlight, notarized direct downloads, RevenueCat, AdMob and OneSignal.<br>
+**Other mobile:** .NET MAUI and Jetpack Compose.<br>
+**Web and prototypes:** TypeScript, React, Next.js, Python and APIs.<br>
+**Data and delivery:** SQLite, Supabase, Firebase, GitHub Actions and release documentation.
 
 [Full toolbox](TOOLBOX.md) · [Professional engineering portfolio](PROFESSIONAL.md)
 

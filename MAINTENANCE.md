@@ -6,17 +6,38 @@
 
 - `README.md`: curated front page, seven featured projects and generated public activity.
 - `INDIE_DEV.md`, `BA_PROFILE.md`, `PROFESSIONAL.md`, `PERSONAL.md`: four reading routes.
-- `PROJECTS.md`: full catalog, reviewed on 2026-09-09; update classifications when project scope changes.
+- `PROJECTS.md`: full catalog of public repositories, reviewed on 2026-10-17; add new public repositories and update classifications when project scope changes.
 - `TOOLBOX.md`: full technology list, generated from `data/toolbox.json`.
 - `assets/`: repository-owned banners, original GIFs, activity card and project evidence.
 
 ## Update activity
 
-The daily GitHub Actions workflow runs at approximately 06:23 UTC. It can also be started with **Actions → Refresh profile activity → Run workflow**.
+The daily GitHub Actions workflow is scheduled for 06:23 UTC. GitHub starts scheduled runs late under load; in practice the snapshot usually lands between 11:00 and 14:00 UTC. It can also be started with **Actions → Refresh profile activity → Run workflow**.
 
 Locally, run `python3 scripts/update_activity.py` with an authenticated GitHub CLI, or provide `GH_TOKEN`. The script uses only public repositories, excludes forks and this profile, and retains the previous snapshot if collection fails. It updates the marked activity section and `assets/activity.svg`.
 
-The six-repository release watchlist is explicit in the script and README. The project catalog, featured selection, maturity labels and workbench are editorial; they are not silently inferred from commits.
+The release watchlist is the `WATCHLIST` constant in the script; the README footnote is generated from it. It shows the newest published release per repository, marked *(preview)* when GitHub flags it as a pre-release. The project catalog, featured selection, maturity labels and workbench are editorial; they are not silently inferred from commits.
+
+## Projects and packages
+
+`PROJECTS_AND_PACKAGES_NL.md` explains the two public Projects and three packages to Dutch-speaking visitors. Update its versions, test counts and issue counts when a package or board changes.
+
+Working the boards:
+
+1. Pick one Ready issue and move it to In progress only when work starts.
+2. Work in the linked repository and reference the issue from the change.
+3. Check the acceptance criteria, tests and documentation.
+4. Add the evidence to the issue, close it and move it to Done.
+5. Add an issue to the relevant Project for each new capability; new repository issues are not added automatically.
+6. Keep the **Next three tasks** view to exactly three selected items.
+
+Releasing a package: bump the version and documentation, let the tests pass, then publish a GitHub release. The workflows upload the package:
+
+- NuGet: tag `contracts-vX.Y.Z`; the version must match the project file.
+- npm: tag `vX.Y.Z`; the version must match `package.json`.
+- Container: tag `package-vX.Y.Z`; publication follows the tests and the container smoke check.
+
+Use version tags for reproducible installation; Docker `latest` moves with the next package release. Never re-tag a published version with different software. The earlier private Projects are kept separately and stay private.
 
 ## Rebuild artwork
 

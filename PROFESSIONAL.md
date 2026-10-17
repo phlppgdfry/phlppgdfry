@@ -52,13 +52,16 @@ A recorded Android emulator demonstration from the project repository.
 
 | Area | Technologies and practices |
 | :--- | :--- |
-| Backend & mobile | C#, ASP.NET Core, .NET MAUI, REST, SQLite, explicit domain rules |
-| Apple platforms | Swift, SwiftUI, AppKit, AVFoundation, StoreKit and Xcode |
-| Web | TypeScript, JavaScript, React, Next.js and Tailwind CSS |
-| Data | Python, SQL, pandas, NumPy, PostgreSQL and Plotly |
-| Cloud & delivery | Azure, Bicep, Docker, GitHub Actions and Vercel |
-| AI workflows | Local models, retrieval, bounded tools, evaluation and review steps |
-| Business analysis | Process models, requirements, KPI design, prioritisation and acceptance criteria |
+| Backend & APIs | C#, ASP.NET Core, Entity Framework Core, Node.js, FastAPI, REST and OpenAPI, explicit domain rules |
+| Enterprise & integration | Java with Jakarta EE on WildFly, Oracle and SQL Server, Azure Service Bus, EDI, Business Central (AL) |
+| Apple & mobile | Swift, SwiftUI, AppKit, SwiftData, AVFoundation, StoreKit 2, .NET MAUI and Jetpack Compose |
+| Web | TypeScript, JavaScript, React, Next.js, Angular and Tailwind CSS |
+| Data & BI | Python, SQL, pandas, NumPy, PostgreSQL, dbt, Plotly, Power BI with DAX and Power Query |
+| Power Platform | Power Apps (PCF components), Power Automate, Dataverse and Copilot Studio designs |
+| Cloud & delivery | Azure (Container Apps, Bicep), Docker, GitHub Actions, GitHub Packages and Vercel |
+| Testing & observability | Playwright, pytest, xUnit, Testcontainers, k6, Grafana and OpenTelemetry |
+| AI workflows | Claude, OpenAI, local models with Ollama, retrieval, bounded tools, evaluation sets and review steps |
+| Business analysis | BPMN, requirements, Gherkin acceptance criteria, KPI design, prioritisation and UAT |
 
 **[Detailed toolbox](TOOLBOX.md)** · **[Business analysis examples](BA_PROFILE.md)**
 
@@ -89,7 +92,7 @@ The commercial and operational side of my work matters alongside the code.
 I'm interested in **development, technical business analysis, data and operational software**, including roles that connect these areas. Also happy to discuss focused freelance work or product collaboration.
 
 **Based in:** Knokke-Heist, Belgium.<br>
-**Languages:** Dutch (native), French (fluent), English (professional).
+**Languages:** Dutch (native), French (basic), English (professional).
 
 ---
 

@@ -66,7 +66,7 @@ A few interests from the reading and watching shelf:
 | Language | Level |
 | :--- | :--- |
 | Dutch | Native |
-| French | Fluent |
+| French | Basic |
 | English | Professional |
 
 ## Say hi

@@ -12,11 +12,14 @@ My portfolio connects **processes, data, user journeys and working software**. T
 
 | Case | Business question | What to inspect |
 | :--- | :--- | :--- |
-| [Breakfast delivery](https://github.com/phlppgdfry/breakfast-delivery-platform) | How should ordering, recommendations and fulfilment fit together? | BRD, user stories, SQL and KPI definitions |
-| [Customer churn](https://github.com/phlppgdfry/customer-churn-analysis) | Where does retention break down, and what should be prioritised? | Root-cause analysis, cohorts and a retention roadmap |
-| [GymLabb specification](https://github.com/phlppgdfry/gymlabb-platform-spec) | What does a coaching platform need across its user roles? | Epics, stories, feature priorities and platform design |
-| [Workwear ERP lab](https://github.com/phlppgdfry/workwear-erp-lab) | How should a webshop hand off orders to Business Central? | Integration boundaries, ERP workflow and an AL extension |
-| [Port optimisation](https://github.com/phlppgdfry/port-logistics-optimization) | Where can a terminal process reduce waiting and handoffs? | Archived AS-IS / TO-BE case study and illustrative business case |
+| [Storm Night](https://github.com/phlppgdfry/storm-night-disruption-business-analysis) | A storm strands 859 trailers: who sails first, in an order three departments can defend? | 200 simulated nights, 16 executable allocation rules, traceability checked in CI and a [playable war room](https://phlppgdfry.github.io/storm-night-disruption-business-analysis/war-room/?tour) |
+| [Shipment exceptions](https://github.com/phlppgdfry/shipment-exception-management-business-analysis) | How can an operator tell customers about delays before they call? | Business case, event storming, BPMN, WSJF backlog, Figma prototype, acceptance and a controlled go-live |
+| [Short-sea booking amendments](https://github.com/phlppgdfry/shortsea-booking-functional-analysis) | How do four inconsistent amendment channels become one set of rules that developers, testers and support share? | Functional analysis, business rules, a decision table, user stories and Given/When/Then |
+| [Business Central implementation](https://github.com/phlppgdfry/business-central-implementation-case) | How does a wholesaler move from a 20-year-old package to Business Central without surprises? | Workshops, fit-gap, setup with posting consequences, reconciled data migration, go/no-go and hypercare (Dutch) |
+| [Occupational health scheduling](https://github.com/phlppgdfry/occupational-health-analysis-case) | How does a cancellation reliably free the slot for someone else? | Requirements traced to rules, acceptance tests, a browser prototype and handover (Dutch) |
+| [Process architecture](https://github.com/phlppgdfry/manufacturing-process-architecture-case) | How does a process tree in PowerPoint become a catalogue people actually use? | Capability map, process catalogue with owners, a BPMN convention checked in CI and an order-to-cash model (Dutch) |
+
+Earlier case studies: [Breakfast delivery](https://github.com/phlppgdfry/breakfast-delivery-platform) · [Customer churn](https://github.com/phlppgdfry/customer-churn-analysis) · [GymLabb specification](https://github.com/phlppgdfry/gymlabb-platform-spec) · [Workwear ERP lab](https://github.com/phlppgdfry/workwear-erp-lab). All cases use fictional organisations and illustrative figures. **[All business analysis work →](PROJECTS.md#business-analysis--product-specs)**
 
 ## Analysis that reaches the implementation
 
@@ -71,7 +74,7 @@ That sentence can be reviewed by a stakeholder, implemented by a developer and e
 
 Interested in business analysis, a technical BA role, product discovery or an operational workflow that needs clearer requirements? I bring commercial experience and the ability to explore the implementation directly.
 
-**Languages:** Dutch (native), French (fluent), English (professional).
+**Languages:** Dutch (native), French (basic), English (professional).
 
 ---
 

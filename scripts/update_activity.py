@@ -12,6 +12,8 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 OWNER = 'phlppgdfry'
 START, END = '<!-- ACTIVITY:START -->', '<!-- ACTIVITY:END -->'
+WATCHLIST = {'ClickTrack': 'ClickTrack', 'MirrorMate-App': 'MirrorMate', 'docurelay-field': 'DocuRelay', 'portops-ai': 'PortOps',
+             'Logistics-Master': 'Logistics Master', 'shipment-tracking-platform': 'Shipment Tracking', 'logistics-kpi-utils': 'Logistics KPI Utils'}
 
 def api(path):
     token = os.environ.get('GH_TOKEN') or os.environ.get('GITHUB_TOKEN')
@@ -46,11 +48,11 @@ def collect():
         raise ValueError('Unexpected repository pagination limit')
     repos=[r for r in repos if not r.get('private') and not r.get('fork') and r['name'].lower()!=OWNER]
     releases=[]
-    # A fixed, explicit selection keeps the scheduled API budget modest.
-    for name in ['ClickTrack','MirrorMate-App','docurelay-field','portops-ai','Logistics-Master','shipment-tracking-platform']:
-        for r in api(f'repos/{OWNER}/{name}/releases?per_page=5'):
-            if not r['draft'] and not r['prerelease'] and r.get('published_at'):
-                releases.append(dict(project=name, **r))
+    # A fixed, explicit selection keeps the scheduled API budget modest. Newest published release per repository.
+    for name in WATCHLIST:
+        published=[r for r in api(f'repos/{OWNER}/{name}/releases?per_page=5') if not r['draft'] and r.get('published_at')]
+        if published:
+            releases.append(dict(project=WATCHLIST[name], **max(published,key=lambda r:r['published_at'])))
     return repos, sorted(releases,key=lambda r:r['published_at'],reverse=True)[:4]
 
 def render(repos,releases,date,showcase=None):
@@ -60,10 +62,11 @@ def render(repos,releases,date,showcase=None):
     recent=sorted([r for r in active if r.get('pushed_at')],key=lambda r:r['pushed_at'],reverse=True)[:5]
     rows=['![Ways to explore the portfolio](assets/activity.svg)', '', '**Try the featured work:** ' + ' · '.join(f"[{md(item['name'])}]({item['url']})" for item in showcase), '', '**Recently pushed repositories**', '', '| Repository | Latest push (UTC) |', '| :--- | :--- |']
     rows += [f"| [{md(r['name'])}]({r['html_url']}) | {r['pushed_at'][:10]} |" for r in recent]
-    rows += ['', '**Latest stable releases from the featured release watchlist**', '']
-    rows += [f"- [{md(r['project'])} · {md(r['tag_name'])}]({r['html_url']}) — {r['published_at'][:10]}" for r in releases] or ['No stable releases published in the watched repositories yet.']
-    rows += ['', f'<sub>Snapshot: {date} UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>']
-    langs=f'{len(active)} non-archived repos / {len(repos)-len(active)} archived / {len(releases)} recent stable releases shown'
+    rows += ['', '**Latest releases from the release watchlist**', '']
+    rows += [f"- [{md(r['project'])} · {md(r['tag_name'])}]({r['html_url']}){' (preview)' if r.get('prerelease') else ''} — {r['published_at'][:10]}" for r in releases] or ['No releases published in the watched repositories yet.']
+    watched=', '.join(list(WATCHLIST.values())[:-1])+' and '+list(WATCHLIST.values())[-1]
+    rows += ['', f'<sub>Snapshot: {date} UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: {watched}. Preview marks a GitHub pre-release.</sub>']
+    langs=f'{len(active)} non-archived repos / {len(repos)-len(active)} archived / {len(releases)} recent releases shown'
     svg=f'''<svg xmlns="http://www.w3.org/2000/svg" width="960" height="194" viewBox="0 0 960 194" role="img" aria-label="Ways to explore the curated portfolio">
 <rect width="960" height="194" rx="16" fill="#0b1119"/>
 <text x="28" y="31" font-family="monospace" font-size="13" fill="#a2b2c4">EXPLORE THE WORK / {escape(date)} UTC</text>

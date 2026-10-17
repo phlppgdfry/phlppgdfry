@@ -219,7 +219,7 @@ Capture evidence offline, keep it in a durable SQLite queue, then sync to an ASP
 | [Where is my delivery?](https://github.com/phlppgdfry/logistics-ai-automation-case-study) | Copilot Studio agents, Power Automate and policy rules you can test |
 | [PortOps AI](https://github.com/phlppgdfry/portops-ai) | Operational evidence, bounded agent tools and approval workflows |
 | [Fabric Data Platform](https://github.com/phlppgdfry/fabric-lottery-data-platform) | Data modelling, Medallion architecture and a staged engineering build |
-| [DocuRelay Field](https://github.com/phlppgdfry/docurelay-field) | Offline mobile state, reliable processing and Azure architecture |
+| [Construction digital transformation](https://github.com/phlppgdfry/construction-digital-transformation) | Three construction cases running in a real Power Platform environment: Dataverse, Power Automate flows and approvals |
 
 <p align="center">
   <img src="assets/terminal.gif" width="460" alt="Animated terminal: find the messy workflow, build a working slice, test awkward cases">
@@ -237,7 +237,7 @@ Pick a lane. There are operational tools, native apps, enterprise workflows and 
 | 🏢 **Enterprise & .NET** | [Shipment tracking](https://github.com/phlppgdfry/shipment-tracking-platform) · [Business Central operations](https://github.com/phlppgdfry/business-central-agentic-operations) · [DocuRelay](https://github.com/phlppgdfry/docurelay-field) · [Workwear ERP lab](https://github.com/phlppgdfry/workwear-erp-lab) |
 | 🍎 **Apps & utilities** | [ClickTrack](https://github.com/phlppgdfry/ClickTrack) · [MirrorMate](https://github.com/phlppgdfry/MirrorMate-App) · [Health intake case study](https://github.com/phlppgdfry/health-intake-pipeline) |
 | 🤖 **AI & developer experiments** | [LocalMind](https://github.com/phlppgdfry/LocalMind) · [Foundry lab](https://github.com/phlppgdfry/micro-foundry-lab) · [Git Personality Profiler](https://github.com/phlppgdfry/git-personality-profiler) · [Stack rules](https://github.com/phlppgdfry/stack-rules) |
-| 🧠 **Business analysis** | [Breakfast delivery](https://github.com/phlppgdfry/breakfast-delivery-platform) · [Customer churn](https://github.com/phlppgdfry/customer-churn-analysis) · [GymLabb specification](https://github.com/phlppgdfry/gymlabb-platform-spec) |
+| 🧠 **Business analysis** | [Storm Night disruption](https://github.com/phlppgdfry/storm-night-disruption-business-analysis) · [Shipment exceptions](https://github.com/phlppgdfry/shipment-exception-management-business-analysis) · [Short-sea booking analysis](https://github.com/phlppgdfry/shortsea-booking-functional-analysis) · [Business Central implementation](https://github.com/phlppgdfry/business-central-implementation-case) · [Process architecture](https://github.com/phlppgdfry/manufacturing-process-architecture-case) |
 
 **[Browse the complete catalog, including labs and archived work →](PROJECTS.md)**
 
@@ -379,9 +379,11 @@ Pickup-ready and loading-ready are different questions. Add stale observations a
 
 A few concrete checkpoints from the public build log:
 
-- **7 June 2026:** ClickTrack v1.0.2 published as the notarized legacy Pro download. [Release](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2)
-- **28–29 July 2026:** DocuRelay Android emulator workflow documented, then rechecked after the SQLite fix. [Runtime evidence](https://github.com/phlppgdfry/docurelay-field/blob/main/docs/runtime-validation.md)
-- **8 September 2026:** PortOps gains procedure retrieval and durable, human-reviewed action proposals. [Commit](https://github.com/phlppgdfry/portops-ai/commit/e622656fdd6baf717e5a5c986f9c73382e2f8058)
+- **12 October 2026:** three packages published, then connected in Shipment Desk at 0.2.0. [Demo](https://github.com/phlppgdfry/shipment-tracking-platform/blob/master/docs/DEMO.md) · [Releases](https://github.com/phlppgdfry/logistics-kpi-utils/releases)
+- **12 October 2026:** Yard Pulse v1.0.0, a Power Apps yard heatmap with a live demo. [Release](https://github.com/phlppgdfry/pcf-yard-pulse/releases/tag/v1.0.0)
+- **13 October 2026:** the logistics AI mailbox design passes a 48-email evaluation set in CI with zero harmful replies. [Case](https://github.com/phlppgdfry/logistics-ai-automation-case-study)
+
+Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) and PortOps action proposals (September).
 
 [Open the milestone log →](MILESTONES.md)
 
@@ -402,11 +404,14 @@ A few concrete checkpoints from the public build log:
 | [occupational-health-analysis-case](https://github.com/phlppgdfry/occupational-health-analysis-case) | 2026-10-13 |
 | [logistics-ai-automation-case-study](https://github.com/phlppgdfry/logistics-ai-automation-case-study) | 2026-10-13 |
 
-**Latest stable releases from the featured release watchlist**
+**Latest releases from the release watchlist**
 
+- [Shipment Tracking · package-v0.2.0](https://github.com/phlppgdfry/shipment-tracking-platform/releases/tag/package-v0.2.0) (preview) — 2026-10-12
+- [Logistics KPI Utils · v0.2.0](https://github.com/phlppgdfry/logistics-kpi-utils/releases/tag/v0.2.0) (preview) — 2026-10-12
+- [PortOps · contracts-v0.2.0](https://github.com/phlppgdfry/portops-ai/releases/tag/contracts-v0.2.0) (preview) — 2026-10-12
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-10-16 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master and Shipment Tracking.</sub>
+<sub>Snapshot: 2026-10-17 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
