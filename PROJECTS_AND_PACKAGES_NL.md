@@ -17,6 +17,17 @@ De drie packages werken samen in één **Shipment Desk**. Je maakt een synthetis
 
 Zelf starten vanuit een clone, met Docker Desktop en Python 3: `python3 scripts/start-demo.py`. Het script maakt een lokale `.env` met eigen demo-wachtwoorden. Open daarna `localhost:5001` en log in als `demo-dispatcher`; het wachtwoord staat alleen in die lokale `.env`.
 
+## Hoe hangen ze samen?
+
+| Onderdeel | Eenvoudig uitgelegd | Concreet resultaat |
+| --- | --- | --- |
+| Project | Het werkbord: wat is af en wat komt hierna? | Issues met acceptatiecriteria en bewijs |
+| Docker-package | De uitvoerbare toepassing | API en dashboard, met SQL via Compose |
+| NuGet-package | De gedeelde taal voor .NET | Dezelfde structuur voor events en hun bronbewijs |
+| npm-package | De herbruikbare rekenregels | KPI’s met zichtbare noemers en ontbrekende gegevens |
+
+**Voor een bezoeker:** bekijk de opname → start de demo → lees de controles → open het bijbehorende issue. **Voor onderhoud:** kies één volgende taak → lever bewijs → sluit het issue → publiceer alleen bij softwarewijzigingen een nieuwe packageversie.
+
 ## De twee Projects
 
 | Project | Inhoud | Items |
@@ -53,11 +64,11 @@ Alle drie zijn **0.2.0-previewreleases**. De documentatie maakt onderscheid tuss
 
 Image: `ghcr.io/phlppgdfry/shipment-tracking-api:0.2.0`.
 
-Hiermee draai je de .NET 10 API zonder ze zelf te compileren. De Compose-demo start SQL Server, maakt optioneel een synthetische dispatcher en voorbeeldzending aan en bewaart database- en documentdata in volumes. De API draait zonder rootrechten en is in de demo alleen bereikbaar op localhost.
+Hiermee draai je de .NET 10 API zonder ze zelf te compileren. De Compose-demo start SQL Server, maakt optioneel een synthetische dispatcher en drie voorbeeldzendingen aan en bewaart database- en documentdata in volumes. De API draait zonder rootrechten en is in de demo alleen bereikbaar op localhost.
 
-Volg de startinstructies: kopieer `.env.package.example` naar `.env`, stel eigen demo-wachtwoorden en een JWT-secret in en start `docker compose -f docker-compose.package.yml up -d --wait --wait-timeout 300`. Open daarna `http://localhost:5001/swagger` en log in als `demo-dispatcher` met het ingestelde wachtwoord. Wie zich publiek registreert, krijgt alleen de Customer-rol; een klant kan geen zendingen aanmaken.
+De aanbevolen start is `python3 scripts/start-demo.py` vanuit de repository. Open daarna `http://localhost:5001` voor het dashboard, of `/swagger` voor de API-documentatie. De handleiding beschrijft ook handmatige configuratie. Log in als `demo-dispatcher` met het ingestelde wachtwoord. Wie zich publiek registreert, krijgt alleen de Customer-rol; een klant kan geen zendingen aanmaken.
 
-Het image is **linux/amd64**. SQL Server vraagt een passende Docker-omgeving; op Apple Silicon is emulatie nodig. Het is een lokale portfolio-demo, geen draaiende productiedienst.
+Het image is **linux/amd64**. SQL Server vraagt een passende Docker-omgeving; op Apple Silicon is emulatie nodig. Het is een lokale portfolio-demo, geen draaiende productiedienst. Klantisolatie is geïmplementeerd en getest in deze preview. Productie-identiteit, gedeeld klantlidmaatschap en een onafhankelijke productiebeoordeling blijven vervolgwerk.
 
 ### 2. PortOps.Contracts — NuGet
 
