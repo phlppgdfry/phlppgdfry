@@ -401,11 +401,11 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
-| [construction-digital-transformation](https://github.com/phlppgdfry/construction-digital-transformation) | 2026-10-16 |
-| [fieldops-360](https://github.com/phlppgdfry/fieldops-360) | 2026-10-16 |
-| [accessflow-dotnet](https://github.com/phlppgdfry/accessflow-dotnet) | 2026-10-14 |
-| [occupational-health-analysis-case](https://github.com/phlppgdfry/occupational-health-analysis-case) | 2026-10-13 |
-| [logistics-ai-automation-case-study](https://github.com/phlppgdfry/logistics-ai-automation-case-study) | 2026-10-13 |
+| [business-central-implementation-case](https://github.com/phlppgdfry/business-central-implementation-case) | 2026-10-17 |
+| [shipment-exception-management-business-analysis](https://github.com/phlppgdfry/shipment-exception-management-business-analysis) | 2026-10-17 |
+| [shipment-tracking-platform](https://github.com/phlppgdfry/shipment-tracking-platform) | 2026-10-17 |
+| [portops-ai](https://github.com/phlppgdfry/portops-ai) | 2026-10-17 |
+| [logistics-kpi-utils](https://github.com/phlppgdfry/logistics-kpi-utils) | 2026-10-17 |
 
 **Latest releases from the release watchlist**
 
