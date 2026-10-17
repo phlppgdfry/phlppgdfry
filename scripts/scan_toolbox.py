@@ -12,6 +12,7 @@ from concurrent.futures import ThreadPoolExecutor
 import json
 from pathlib import Path
 import re
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -36,6 +37,8 @@ def repositories():
 def haystack(repo, cache):
     name, path = repo['name'], cache / repo['name']
     git = lambda *a: subprocess.run(['git', '-C', str(path), *a], capture_output=True, text=True)
+    if path.exists() and git('pull', '-q', '--depth', '1').returncode:
+        shutil.rmtree(path)  # a damaged cache would otherwise read as an empty repository
     if not path.exists():
         url = f'https://github.com/{OWNER}/{name}.git'
         if subprocess.run(['git', 'clone', '-q', '--depth', '1', '--filter=blob:none', '--no-checkout', url, str(path)],
@@ -43,8 +46,6 @@ def haystack(repo, cache):
             return name, ''
         git('sparse-checkout', 'set', '--no-cone', *SPARSE)
         git('checkout', '-q')
-    else:
-        git('pull', '-q', '--depth', '1')
     parts = git('ls-files').stdout.splitlines()
     for file in path.rglob('*'):
         if not file.is_file() or '.git' in file.parts:
@@ -89,7 +90,7 @@ def main():
     unlisted = [f'{d} ({n})' for d, n in deps.most_common()
                 if n >= 3 and not any(r.search(d if d.startswith('Include') else f'"{d}":') for r in rules)]
     print('\n' + ('\n'.join(problems) or 'No stale tools or broken evidence links.'))
-    print('\nnpm and NuGet packages in 3+ repositories without a toolbox entry (libraries are left out on purpose):')
+    print('\nnpm and NuGet packages in 3+ repositories without a toolbox entry:')
     print('  ' + ', '.join(re.sub(r'Include="([^"]+)"', r'\1', u) for u in unlisted[:60]))
     if '--fill' in sys.argv:
         REGISTRY.write_text(json.dumps(registry, indent=1, ensure_ascii=False) + '\n')

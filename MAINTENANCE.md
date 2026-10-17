@@ -24,9 +24,9 @@ Install Pillow in a virtual environment, then run `python3 scripts/build_visuals
 
 ## Update the toolbox
 
-Edit `data/toolbox.json`, never `TOOLBOX.md`, then run `python3 scripts/build_toolbox.py`. Each tool has a badge colour, an optional Simple Icons `logo`, an optional `repo` (a public repository the badge links to) and an optional `detect` regex. Tools without `detect` (Git, Figma, BRDs and similar) are editorial and not checked.
+Edit `data/toolbox.json`, never `TOOLBOX.md`, then run `python3 scripts/build_toolbox.py`. Each tool has a badge colour, an optional Simple Icons `logo`, an optional `repo` (a public repository the badge links to) and an optional `detect` regex. Tools without `detect` (Git, Figma, Jira, BRDs and similar) are editorial and not checked.
 
-Run `python3 scripts/scan_toolbox.py` with an authenticated GitHub CLI every few months or after a new project. It sparse-clones every repository into a temporary cache (about a minute) and reports tools no repository uses any more, `repo` links that stopped matching, and npm or NuGet packages used in three or more repositories without an entry. `--fill` also sets `repo` for tools that have public evidence but no link. Libraries are left out on purpose; list frameworks, platforms, databases, services and tooling. Brand icons removed from Simple Icons (Microsoft, Oracle, OpenAI) render without a logo, so leave `logo` empty for them.
+Run `python3 scripts/scan_toolbox.py` with an authenticated GitHub CLI every few months or after a new project. It sparse-clones every repository into a temporary cache (about a minute) and reports tools no repository uses any more, `repo` links that stopped matching, and npm or NuGet packages used in three or more repositories without an entry. `--fill` also sets `repo` for tools that have public evidence but no link. The wall includes well-known libraries (MediatR, Zod, Zustand and similar); the unlisted-package report is a prompt, not a to-do list. Brand icons removed from Simple Icons (Microsoft, Oracle, OpenAI) render without a logo, so leave `logo` empty for them.
 
 ## Asset provenance
 

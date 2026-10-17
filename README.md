@@ -273,13 +273,13 @@ Mobile: SwiftUI, SwiftData, StoreKit 2, WidgetKit, .NET MAUI and Jetpack Compose
 
 Enterprise: Java with Jakarta EE on WildFly, Oracle and SQL Server, Azure Service Bus, Business Central (AL) and EDI.
 
-Data: PostgreSQL, Supabase, pandas, scikit-learn, dbt, Streamlit, Power BI with DAX, Excel and Power Query.
+Data: PostgreSQL, Supabase, pandas, scikit-learn, Jupyter, dbt, Streamlit, Power BI with DAX, Excel and Power Query.
 
-AI: Claude, OpenAI, Ollama, Azure AI Foundry, the Vercel AI SDK and Firecrawl.
+AI: Claude, OpenAI, Ollama, Azure AI Foundry, the Vercel AI SDK, LangChain and Firecrawl.
 
 Delivery: GitHub Actions, Docker, Azure Container Apps with Bicep, Vercel, Playwright, pytest, xUnit, k6, Grafana and OpenTelemetry.
 
-Product: BPMN, Gherkin acceptance criteria, BRDs, MoSCoW, user stories and Figma.
+Product: BPMN, Gherkin acceptance criteria, BRDs, MoSCoW, user stories, Figma, Jira, Confluence, Miro and Notion.
 
 **[Open the full badge wall →](TOOLBOX.md)** · Linked badges open a public repository that uses the tool.
 

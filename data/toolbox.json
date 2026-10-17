@@ -139,6 +139,38 @@
      "detect": "\"(shadcn|@shadcn/react|@radix-ui/react-slot)\":"
     },
     {
+     "name": "Radix UI",
+     "color": "161618",
+     "logo": "radixui",
+     "detect": "\"@radix-ui/"
+    },
+    {
+     "name": "Framer Motion",
+     "color": "0055FF",
+     "logo": "framer",
+     "detect": "\"(framer-motion|motion)\":",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "React Router",
+     "color": "CA4245",
+     "logo": "reactrouter",
+     "detect": "\"react-router(-dom)?\":",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "TanStack Query",
+     "color": "FF4154",
+     "logo": "reactquery",
+     "detect": "\"@tanstack/react-query\":"
+    },
+    {
+     "name": "Zustand",
+     "color": "443E38",
+     "detect": "\"zustand\":",
+     "repo": "Logistics-Master"
+    },
+    {
      "name": "Vite",
      "color": "646CFF",
      "logo": "vite",
@@ -215,6 +247,11 @@
      "logo": "apple",
      "detect": "import:Vision\\b",
      "repo": "health-intake-pipeline"
+    },
+    {
+     "name": "Core ML",
+     "color": "FA7343",
+     "logo": "apple"
     },
     {
      "name": "MapKit",
@@ -372,6 +409,55 @@
      "repo": "environmental-sensor-data-platform"
     },
     {
+     "name": "Zod",
+     "color": "3E67B1",
+     "logo": "zod",
+     "detect": "\"zod\":",
+     "repo": "ledgerflow-belgium"
+    },
+    {
+     "name": "Pydantic",
+     "color": "E92063",
+     "logo": "pydantic",
+     "detect": "\\bpydantic\\b",
+     "repo": "environmental-sensor-data-platform"
+    },
+    {
+     "name": "MediatR",
+     "color": "512BD4",
+     "logo": "dotnet",
+     "detect": "Include=\"MediatR",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "FluentValidation",
+     "color": "512BD4",
+     "logo": "dotnet",
+     "detect": "Include=\"FluentValidation",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "Serilog",
+     "color": "1E3A5F",
+     "logo": "dotnet",
+     "detect": "Include=\"Serilog",
+     "repo": "Logistics-Master"
+    },
+    {
+     "name": "Polly",
+     "color": "512BD4",
+     "logo": "dotnet",
+     "detect": "Include=\"Polly",
+     "repo": "compliance-connector-poc"
+    },
+    {
+     "name": "JWT",
+     "color": "000000",
+     "logo": "jsonwebtokens",
+     "detect": "JwtBearer|\"jsonwebtoken\":|\"jose\":|\\bPyJWT\\b|python-jose",
+     "repo": "Logistics-Master"
+    },
+    {
      "name": "Supabase",
      "color": "3ECF8E",
      "logo": "supabase",
@@ -478,6 +564,27 @@
      "repo": "python-data-analytics-lab"
     },
     {
+     "name": "seaborn",
+     "color": "4C72B0",
+     "logo": "python",
+     "detect": "\\bseaborn\\b",
+     "repo": "hr-analytics-segmentation"
+    },
+    {
+     "name": "statsmodels",
+     "color": "4051B5",
+     "logo": "python",
+     "detect": "\\bstatsmodels\\b",
+     "repo": "python-data-analytics-project"
+    },
+    {
+     "name": "Pandera",
+     "color": "5A3E85",
+     "logo": "python",
+     "detect": "\\bpandera\\b",
+     "repo": "hr-analytics-segmentation"
+    },
+    {
      "name": "Plotly",
      "color": "3F4F75",
      "logo": "plotly",
@@ -490,6 +597,13 @@
      "logo": "streamlit",
      "detect": "streamlit",
      "repo": "belgium-mobility-weather-etl"
+    },
+    {
+     "name": "Jupyter",
+     "color": "F37626",
+     "logo": "jupyter",
+     "detect": "\\.ipynb$|\\bipykernel\\b|\\bjupyter",
+     "repo": "hr-analytics-segmentation"
     },
     {
      "name": "dbt",
@@ -551,6 +665,11 @@
      "detect": "\"ai\":"
     },
     {
+     "name": "LangChain",
+     "color": "1C3C3C",
+     "logo": "langchain"
+    },
+    {
      "name": "Azure AI Foundry",
      "color": "0078D4",
      "detect": "azure-ai-projects|foundry",
@@ -586,6 +705,18 @@
      "repo": "bicep-lab"
     },
     {
+     "name": "Azure Container Registry",
+     "color": "0078D4",
+     "detect": "azurecr\\.io|az acr\\b",
+     "repo": "business-central-agentic-operations"
+    },
+    {
+     "name": "Azurite",
+     "color": "0078D4",
+     "detect": "(?i)azurite",
+     "repo": "shipment-tracking-platform"
+    },
+    {
      "name": "Pulumi",
      "color": "8A3391",
      "logo": "pulumi",
@@ -611,6 +742,12 @@
      "color": "F38020",
      "logo": "cloudflareworkers",
      "detect": "wrangler"
+    },
+    {
+     "name": "AWS",
+     "color": "232F3E",
+     "detect": "\"@pulumi/aws\":|\"@aws-sdk/|aws-actions/|\\bboto3\\b",
+     "repo": "ledgerflow-belgium"
     },
     {
      "name": "GitHub Actions",
@@ -699,6 +836,14 @@
      "repo": "Logistics-Master"
     },
     {
+     "name": "Prettier",
+     "color": "F7B93E",
+     "logo": "prettier",
+     "logo_color": "black",
+     "detect": "\"prettier\":|\\.prettierrc",
+     "repo": "fieldops-360"
+    },
+    {
      "name": "Ruff",
      "color": "D7FF64",
      "logo": "ruff",
@@ -732,6 +877,13 @@
      "color": "CB2431",
      "detect": "gitleaks",
      "repo": "harbor-pulse"
+    },
+    {
+     "name": "Codecov",
+     "color": "F01F7A",
+     "logo": "codecov",
+     "detect": "(?i)codecov",
+     "repo": "hr-analytics-segmentation"
     }
    ]
   },
@@ -810,6 +962,14 @@
      "logo": "npm",
      "detect": "package\\.json",
      "repo": "portpulse"
+    },
+    {
+     "name": "Homebrew",
+     "color": "FBB040",
+     "logo": "homebrew",
+     "logo_color": "black",
+     "detect": "Brewfile|\\bbrew install\\b",
+     "repo": "health-intake-pipeline"
     },
     {
      "name": "uv",
@@ -956,12 +1116,33 @@
    ]
   },
   {
-   "title": "Office and Design",
+   "title": "Office, Collaboration and Design",
    "tools": [
     {
      "name": "Figma",
      "color": "F24E1E",
      "logo": "figma"
+    },
+    {
+     "name": "Jira",
+     "color": "0052CC",
+     "logo": "jira"
+    },
+    {
+     "name": "Confluence",
+     "color": "172B4D",
+     "logo": "confluence"
+    },
+    {
+     "name": "Miro",
+     "color": "FFD02F",
+     "logo": "miro",
+     "logo_color": "black"
+    },
+    {
+     "name": "Notion",
+     "color": "000000",
+     "logo": "notion"
     },
     {
      "name": "Word",
