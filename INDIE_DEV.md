@@ -56,6 +56,21 @@ An iPhone app, live on the App Store since February 2025 as **Hand Mirror: HD, L
 
 **[App Store](https://apps.apple.com/us/app/hand-mirror-hd-light-zoom/id6738931920)**
 
+### 💍 RingSizer — your ring size, measured on the screen
+
+An iPhone app, live on the App Store since September 2026. It measures an existing ring against a true-to-scale guide, or a finger with a two-step ellipse method, and converts between international size systems. Measurements never leave the device.
+
+| Product detail | What to explore |
+| :--- | :--- |
+| Platform | iPhone; SwiftUI |
+| Measurement | Screen-accurate guides, optional bank-card calibration, ellipse-based finger sizing and a life-size ruler |
+| Experience | Size conversion (EU, US, UK, JP, AU, CH/DE), measurement history with charts and an evening re-measure reminder |
+| Product layer | Free download with a one-time Premium purchase (StoreKit 2), no subscription |
+| Releases | Version 1.0, after several App Store review rounds; built and uploaded with Xcode Cloud |
+| Repository | Private source; no public showcase yet |
+
+**[App Store](https://apps.apple.com/us/app/ringsizer-ring-size-tool/id6798043494)**
+
 ## The experimental shelf
 
 | Project | Idea | Scope |
@@ -79,8 +94,8 @@ An iPhone app, live on the App Store since February 2025 as **Hand Mirror: HD, L
 
 ## Tools I reach for
 
-**Apple:** Swift, SwiftUI, AppKit, SwiftData, AVFoundation, Vision, WidgetKit, App Intents, StoreKit 2 and Xcode with XcodeGen.<br>
-**Release and monetisation:** App Store Connect, TestFlight, notarized direct downloads, RevenueCat, AdMob and OneSignal.<br>
+**Apple:** Swift, SwiftUI, AppKit, SwiftData, Swift Charts, AVFoundation, Vision, WidgetKit, App Intents, StoreKit 2 and Xcode with XcodeGen.<br>
+**Release and monetisation:** App Store Connect, TestFlight, Xcode Cloud, notarized direct downloads, RevenueCat, AdMob and OneSignal.<br>
 **Other mobile:** .NET MAUI and Jetpack Compose.<br>
 **Web and prototypes:** TypeScript, React, Next.js, Python and APIs.<br>
 **Data and delivery:** SQLite, Supabase, Firebase, GitHub Actions and release documentation.
