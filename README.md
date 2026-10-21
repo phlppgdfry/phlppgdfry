@@ -401,11 +401,11 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
+| [manufacturing-erp-migration-programme](https://github.com/phlppgdfry/manufacturing-erp-migration-programme) | 2026-10-20 |
 | [construction-digital-transformation](https://github.com/phlppgdfry/construction-digital-transformation) | 2026-10-18 |
 | [fieldops-360](https://github.com/phlppgdfry/fieldops-360) | 2026-10-17 |
 | [business-central-implementation-case](https://github.com/phlppgdfry/business-central-implementation-case) | 2026-10-17 |
 | [manufacturing-quality-replanning-case](https://github.com/phlppgdfry/manufacturing-quality-replanning-case) | 2026-10-17 |
-| [shipment-exception-management-business-analysis](https://github.com/phlppgdfry/shipment-exception-management-business-analysis) | 2026-10-17 |
 
 **Latest releases from the release watchlist**
 
@@ -414,7 +414,7 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 - [PortOps · contracts-v0.2.0](https://github.com/phlppgdfry/portops-ai/releases/tag/contracts-v0.2.0) (preview) — 2026-10-12
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-10-20 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
+<sub>Snapshot: 2026-10-21 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
