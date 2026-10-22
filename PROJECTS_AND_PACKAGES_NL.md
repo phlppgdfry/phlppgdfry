@@ -44,7 +44,7 @@ Elk bord heeft een beschrijving, een project-README, gekoppelde repositories, ee
 - **In progress:** er wordt effectief aan gewerkt.
 - **Done:** er is controleerbaar bewijs dat het af is.
 
-Gepubliceerde versies en afgeronde verbeteringen hebben gesloten issues met bewijs. De 15 open issues zijn gepland werk en worden niet als uitgevoerd voorgesteld. P1 is de volgende nuttige mijlpaal, P2 een latere verbetering. Inspanning 2/3/5 is relatief en geen aantal dagen.
+Gepubliceerde versies en afgeronde verbeteringen hebben gesloten issues met bewijs. De 14 open issues (stand 22 oktober 2026) zijn gepland werk en worden niet als uitgevoerd voorgesteld. P1 is de volgende nuttige mijlpaal, P2 een latere verbetering. Inspanning 2/3/5 is relatief en geen aantal dagen.
 
 Elk bord werkt naar drie mijlpalen:
 
@@ -53,6 +53,17 @@ Elk bord werkt naar drie mijlpalen:
 3. **Connected demonstration:** de onderdelen ondersteunen één begrijpelijk scenario, met bewijs en opname.
 
 De weergave **Next three tasks** toont wat als volgende gepland staat. Provider-evaluatie, echte terminaladapters, gedeeld klantlidmaatschap en een native ARM-databaseoptie zijn gepland, maar geen onderdeel van de huidige demo.
+
+## Extra afgerond: het PortFlow-eventcontract
+
+Op 22 oktober is een geselecteerde taak op het logistieke bord afgerond: een uitvoerbaar model van **gate → yard → hold → vrijgave → vertrek**. Het laat zien hoe dubbele berichten, gewijzigde event-IDs, foutieve volgordes en open holds behandeld worden.
+
+- Zelf draaien vanuit de PortFlow-repository: `python3 scripts/replay-terminal-events.py`; Python 3.12+, geen externe packages of accounts.
+- De acht voorbeeldberichten leveren vijf toegepaste events, één geblokkeerd vertrek, één herkend dubbel bericht en één ID-conflict op.
+- De complete PortFlow-suite heeft 52 geslaagde tests, waaronder 14 nieuwe acceptatietests. Ook de HTTP-smokecheck, incidentreplay en Oracle-validatie slagen op GitHub.
+- Het is een los referentiemodel in het geheugen: geen echte terminalkoppeling, nieuw API-endpoint of blijvende eventopslag. De handleiding benoemt wat daarvoor nog nodig is en wie afwijkingen moet uitzoeken.
+
+[Contract en uitleg](https://github.com/phlppgdfry/portflow-terminal-case-study/blob/main/integrations/terminal-event-contract.md) · [Exacte commit](https://github.com/phlppgdfry/portflow-terminal-case-study/commit/789bddcb083c3a7a2179cf1541e005fd5ffffaf6) · [Geslaagde controles](https://github.com/phlppgdfry/portflow-terminal-case-study/actions/runs/39774929932)
 
 ## De drie packages
 

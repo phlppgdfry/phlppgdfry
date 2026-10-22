@@ -63,8 +63,9 @@ The delivery boards link completed work to evidence and identify the next three 
 
 GitHub's npm and NuGet registries require authentication for installation; both releases also provide downloadable artifacts. The container is public. Examples use synthetic data, and package publication does not imply a production deployment.
 
-
 <a href="https://github.com/phlppgdfry/shipment-tracking-platform/blob/master/docs/DEMO.md"><img src="https://raw.githubusercontent.com/phlppgdfry/shipment-tracking-platform/master/docs/assets/shipment-desk-desktop.png" width="900" alt="Actual Shipment Desk baseline: synthetic records, real API, SQL persistence, source evidence and package-powered KPIs"></a>
+
+**Latest delivery · 22 October:** [PortFlow terminal-event contract](https://github.com/phlppgdfry/portflow-terminal-case-study/blob/main/integrations/terminal-event-contract.md) — run a gate → yard → hold → departure scenario with one Python command. Fourteen new acceptance tests verify ordering, holds and replay; [all 52 PortFlow tests and CI checks pass](https://github.com/phlppgdfry/portflow-terminal-case-study/actions/runs/39774929932). Standalone synthetic reference, with reconciliation rules and explicit integration limits.
 
 [Uitleg in het Nederlands: wat dit toevoegt en hoe je het onderhoudt →](PROJECTS_AND_PACKAGES_NL.md)
 
