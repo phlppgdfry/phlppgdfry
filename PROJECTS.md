@@ -6,6 +6,12 @@
 
 Apps, prototypes, studies and learning exercises sit together here. Company-specific projects are portfolio/research material; their READMEs explain the scope. Archived repositories remain accessible for context.
 
+## Product design & Figma
+
+| Project | Scope | What you will find |
+| :--- | :--- | :--- |
+| [studio-noord-design-case-study](https://github.com/phlppgdfry/studio-noord-design-case-study) | Independent practice case | Four Figma products, native Draw/Motion, a six-slide case pitch and an independent [interactive portfolio](https://phlppgdfry.github.io/studio-noord-design-case-study/), with booking-rule tests, design tradeoffs and evidence. AI-assisted; no completed user study or business-impact claim. |
+
 ## Ports, logistics & operations
 
 | Project | Scope | What you will find |

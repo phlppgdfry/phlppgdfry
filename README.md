@@ -42,6 +42,14 @@ philippe:
 | 🌊 The human behind the repositories | [Off-duty Philippe](PERSONAL.md) |
 | 🗂 Everything I've put on the public shelf | [Full project catalog](PROJECTS.md) |
 
+## Studio Noord · Figma product design
+
+**From a design question to an interactive portfolio case.** A fictional creative festival connects FigJam, Design (including Draw and Motion), Slides and Make, with an independent browser implementation and a six-slide native case pitch.
+
+[Try the two-minute tour](https://phlppgdfry.github.io/studio-noord-design-case-study/?tour#playground) · [Read the case & source](https://github.com/phlppgdfry/studio-noord-design-case-study) · [Open the Figma pitch](https://www.figma.com/slides/tZ9ynsDG41cgBAsAAk4Bjd)
+
+Seven interactive labs, a local booking flow, documented design tradeoffs, an evidence register and ten automated booking-rule tests. Independent practice with AI assistance; user research and measured impact remain proposed work.
+
 ## Delivery boards & reusable packages
 
 **One working demo, three reusable pieces.** Shipment Desk connects a SQL-backed API, shared .NET evidence contracts and JavaScript KPI calculations. All three packages are public **0.2.0 previews**.
