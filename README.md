@@ -48,7 +48,7 @@ philippe:
 
 [Try the two-minute tour](https://phlppgdfry.github.io/studio-noord-design-case-study/?tour#playground) · [Read the case & source](https://github.com/phlppgdfry/studio-noord-design-case-study) · [Open the Figma pitch](https://www.figma.com/slides/tZ9ynsDG41cgBAsAAk4Bjd)
 
-Seven interactive labs, a local booking flow, documented design tradeoffs, an evidence register and ten automated booking-rule tests. Independent practice with AI assistance; user research and measured impact remain proposed work.
+Seven interactive labs, a local booking flow, documented design tradeoffs and a completed expert review with a before/after iteration. Twelve model tests and 60 browser checks cover desktop, mobile emulation and accessibility rules. Independent practice with AI assistance; participant research and measured impact remain proposed work.
 
 ## Delivery boards & reusable packages
 
