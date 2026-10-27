@@ -96,9 +96,9 @@ Seven projects, each with a different job to do. Open the screenshots and build 
 
 <a href="https://github.com/phlppgdfry/logistics-ai-automation-case-study"><img src="assets/cover-mailbox.svg" width="100%" alt="📬 Where is my delivery? — AI & automation case study · Copilot Studio / Power Automate"></a>
 
-A logistics mailbox where half the emails ask what the transport system already knows. A Copilot Studio agent reads each email, a Power Automate flow checks the TMS and 18 policy rules, and the reply goes out in minutes — never to the wrong person.
+A logistics mailbox where half the emails ask what the transport system already knows. A Copilot Studio agent reads each email, a Power Automate flow checks the TMS and 18 policy rules, and the reply goes out in minutes — never to the wrong person. Built in a Power Platform developer environment, the flows decide exactly like the tested code; the reading is measured on a real model in Azure AI Foundry and on the live agent, including 24 emails nobody tuned on.
 
-**Portfolio case study · Copilot Studio / Power Automate / tested policy code.** [2-minute demo →](https://phlppgdfry.github.io/logistics-ai-automation-case-study/demo/?tour) · [Case →](https://github.com/phlppgdfry/logistics-ai-automation-case-study)
+**Portfolio case study · Copilot Studio / Power Automate / Dataverse / Azure AI Foundry / tested policy code.** [2-minute demo →](https://phlppgdfry.github.io/logistics-ai-automation-case-study/demo/?tour) · [Case →](https://github.com/phlppgdfry/logistics-ai-automation-case-study)
 
 <details>
 <summary><b>Behind the build: the model reads, the rules decide</b></summary>
@@ -228,7 +228,7 @@ Capture evidence offline, keep it in a durable SQLite queue, then sync to an ASP
 
 | Focus | What I'm exploring |
 | :--- | :--- |
-| [Where is my delivery?](https://github.com/phlppgdfry/logistics-ai-automation-case-study) | Copilot Studio agents, Power Automate and policy rules you can test |
+| [Where is my delivery?](https://github.com/phlppgdfry/logistics-ai-automation-case-study) | A Copilot Studio agent and Power Automate flows, built and verified; reading measured on a real model |
 | [PortOps AI](https://github.com/phlppgdfry/portops-ai) | Operational evidence, bounded agent tools and approval workflows |
 | [Fabric Data Platform](https://github.com/phlppgdfry/fabric-lottery-data-platform) | Data modelling, Medallion architecture and a staged engineering build |
 | [Construction digital transformation](https://github.com/phlppgdfry/construction-digital-transformation) | Three construction cases running in a real Power Platform environment: Dataverse, Power Automate flows and approvals |
