@@ -410,11 +410,11 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
-| [real-estate-automation-workbench](https://github.com/phlppgdfry/real-estate-automation-workbench) | 2026-10-29 |
+| [ai-transformation-consulting-playbook](https://github.com/phlppgdfry/ai-transformation-consulting-playbook) | 2026-10-30 |
+| [enterprise-ai-agent-governance](https://github.com/phlppgdfry/enterprise-ai-agent-governance) | 2026-10-30 |
+| [enterprise-ai-automation-hub](https://github.com/phlppgdfry/enterprise-ai-automation-hub) | 2026-10-30 |
+| [real-estate-automation-workbench](https://github.com/phlppgdfry/real-estate-automation-workbench) | 2026-10-30 |
 | [storage-engineering-lab](https://github.com/phlppgdfry/storage-engineering-lab) | 2026-10-29 |
-| [storage-doctor](https://github.com/phlppgdfry/storage-doctor) | 2026-10-28 |
-| [make-enterprise-showcase](https://github.com/phlppgdfry/make-enterprise-showcase) | 2026-10-28 |
-| [business-central-implementation-case](https://github.com/phlppgdfry/business-central-implementation-case) | 2026-10-28 |
 
 **Latest releases from the release watchlist**
 
@@ -423,7 +423,7 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 - [PortOps · contracts-v0.2.0](https://github.com/phlppgdfry/portops-ai/releases/tag/contracts-v0.2.0) (preview) — 2026-10-12
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-10-29 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
+<sub>Snapshot: 2026-10-30 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
