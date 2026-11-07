@@ -410,11 +410,11 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
-| [excel-hell](https://github.com/phlppgdfry/excel-hell) | 2026-11-05 |
-| [ai-transformation-playbook](https://github.com/phlppgdfry/ai-transformation-playbook) | 2026-11-05 |
-| [make-enterprise-showcase](https://github.com/phlppgdfry/make-enterprise-showcase) | 2026-11-05 |
-| [storage-doctor](https://github.com/phlppgdfry/storage-doctor) | 2026-11-05 |
-| [storage-engineering-lab](https://github.com/phlppgdfry/storage-engineering-lab) | 2026-11-05 |
+| [reviewell-ai-search-optimization](https://github.com/phlppgdfry/reviewell-ai-search-optimization) | 2026-11-07 |
+| [enterprise-ai-product-design-studio](https://github.com/phlppgdfry/enterprise-ai-product-design-studio) | 2026-11-07 |
+| [enterprise-ai-workflow-manager](https://github.com/phlppgdfry/enterprise-ai-workflow-manager) | 2026-11-07 |
+| [buffer-ai-content-operations](https://github.com/phlppgdfry/buffer-ai-content-operations) | 2026-11-07 |
+| [enterprise-ai-content-studio](https://github.com/phlppgdfry/enterprise-ai-content-studio) | 2026-11-07 |
 
 **Latest releases from the release watchlist**
 
@@ -423,7 +423,7 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 - [PortOps · contracts-v0.2.0](https://github.com/phlppgdfry/portops-ai/releases/tag/contracts-v0.2.0) (preview) — 2026-10-12
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-11-06 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
+<sub>Snapshot: 2026-11-07 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
