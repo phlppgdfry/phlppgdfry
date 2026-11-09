@@ -410,11 +410,11 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
-| [harborvoice-ai](https://github.com/phlppgdfry/harborvoice-ai) | 2026-11-08 |
-| [make-enterprise-showcase](https://github.com/phlppgdfry/make-enterprise-showcase) | 2026-11-08 |
-| [workwear-erp-lab](https://github.com/phlppgdfry/workwear-erp-lab) | 2026-11-08 |
-| [ai-transformation-playbook](https://github.com/phlppgdfry/ai-transformation-playbook) | 2026-11-08 |
-| [VoltYard](https://github.com/phlppgdfry/VoltYard) | 2026-11-08 |
+| [harborvoice-ai](https://github.com/phlppgdfry/harborvoice-ai) | 2026-11-09 |
+| [reviewell-ai-search-optimization](https://github.com/phlppgdfry/reviewell-ai-search-optimization) | 2026-11-09 |
+| [ai-transformation-consulting-playbook](https://github.com/phlppgdfry/ai-transformation-consulting-playbook) | 2026-11-09 |
+| [enterprise-ai-agent-governance](https://github.com/phlppgdfry/enterprise-ai-agent-governance) | 2026-11-09 |
+| [enterprise-ai-automation-hub](https://github.com/phlppgdfry/enterprise-ai-automation-hub) | 2026-11-09 |
 
 **Latest releases from the release watchlist**
 
@@ -423,7 +423,7 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 - [PortOps · contracts-v0.2.0](https://github.com/phlppgdfry/portops-ai/releases/tag/contracts-v0.2.0) (preview) — 2026-10-12
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-11-08 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
+<sub>Snapshot: 2026-11-09 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
