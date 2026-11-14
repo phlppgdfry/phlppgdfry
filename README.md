@@ -410,11 +410,11 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
+| [signal-trust-network](https://github.com/phlppgdfry/signal-trust-network) | 2026-11-14 |
 | [copilot-leerpad](https://github.com/phlppgdfry/copilot-leerpad) | 2026-11-12 |
 | [harborvoice-ai](https://github.com/phlppgdfry/harborvoice-ai) | 2026-11-12 |
 | [beehiiv-growth-os](https://github.com/phlppgdfry/beehiiv-growth-os) | 2026-11-10 |
 | [reviewell-ai-search-optimization](https://github.com/phlppgdfry/reviewell-ai-search-optimization) | 2026-11-10 |
-| [ai-transformation-consulting-playbook](https://github.com/phlppgdfry/ai-transformation-consulting-playbook) | 2026-11-09 |
 
 **Latest releases from the release watchlist**
 
@@ -423,7 +423,7 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 - [PortOps · contracts-v0.2.0](https://github.com/phlppgdfry/portops-ai/releases/tag/contracts-v0.2.0) (preview) — 2026-10-12
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-11-13 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
+<sub>Snapshot: 2026-11-14 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
