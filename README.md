@@ -410,11 +410,11 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
-| [reviewell-ai-search-optimization](https://github.com/phlppgdfry/reviewell-ai-search-optimization) | 2026-11-16 |
-| [VoltYard](https://github.com/phlppgdfry/VoltYard) | 2026-11-16 |
-| [csp-zeebrugge-toolkit](https://github.com/phlppgdfry/csp-zeebrugge-toolkit) | 2026-11-16 |
-| [portpulse](https://github.com/phlppgdfry/portpulse) | 2026-11-16 |
-| [cargo-dwell-time-analysis](https://github.com/phlppgdfry/cargo-dwell-time-analysis) | 2026-11-16 |
+| [hr-analytics-segmentation](https://github.com/phlppgdfry/hr-analytics-segmentation) | 2026-11-17 |
+| [airtable-enterprise-platform](https://github.com/phlppgdfry/airtable-enterprise-platform) | 2026-11-17 |
+| [environmental-sensor-data-platform](https://github.com/phlppgdfry/environmental-sensor-data-platform) | 2026-11-17 |
+| [compliance-connector-poc](https://github.com/phlppgdfry/compliance-connector-poc) | 2026-11-17 |
+| [belgium-mobility-weather-etl](https://github.com/phlppgdfry/belgium-mobility-weather-etl) | 2026-11-17 |
 
 **Latest releases from the release watchlist**
 
@@ -423,7 +423,7 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 - [PortOps · contracts-v0.2.0](https://github.com/phlppgdfry/portops-ai/releases/tag/contracts-v0.2.0) (preview) — 2026-10-12
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-11-16 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
+<sub>Snapshot: 2026-11-17 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
