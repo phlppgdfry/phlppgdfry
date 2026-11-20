@@ -410,11 +410,11 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
-| [health-intake-pipeline](https://github.com/phlppgdfry/health-intake-pipeline) | 2026-11-17 |
-| [digital-transformation-analyst-portfolio](https://github.com/phlppgdfry/digital-transformation-analyst-portfolio) | 2026-11-17 |
-| [ai-transformation-playbook](https://github.com/phlppgdfry/ai-transformation-playbook) | 2026-11-17 |
-| [fabric-lottery-data-platform](https://github.com/phlppgdfry/fabric-lottery-data-platform) | 2026-11-17 |
-| [docurelay-field](https://github.com/phlppgdfry/docurelay-field) | 2026-11-17 |
+| [enterprise-ai-evals-governance](https://github.com/phlppgdfry/enterprise-ai-evals-governance) | 2026-11-20 |
+| [microsoft-copilot-studio-automation](https://github.com/phlppgdfry/microsoft-copilot-studio-automation) | 2026-11-20 |
+| [azure-ai-rag-knowledge-assistant](https://github.com/phlppgdfry/azure-ai-rag-knowledge-assistant) | 2026-11-20 |
+| [enterprise-ai-accounting-copilot](https://github.com/phlppgdfry/enterprise-ai-accounting-copilot) | 2026-11-20 |
+| [agentic-workflow-platform](https://github.com/phlppgdfry/agentic-workflow-platform) | 2026-11-20 |
 
 **Latest releases from the release watchlist**
 
@@ -423,7 +423,7 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 - [PortOps · contracts-v0.2.0](https://github.com/phlppgdfry/portops-ai/releases/tag/contracts-v0.2.0) (preview) — 2026-10-12
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-11-19 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
+<sub>Snapshot: 2026-11-20 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
