@@ -410,11 +410,11 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
+| [ai-money-playbook](https://github.com/phlppgdfry/ai-money-playbook) | 2026-11-26 |
+| [python-packaging-differential](https://github.com/phlppgdfry/python-packaging-differential) | 2026-11-26 |
 | [elevenlabs-webhook-conformance](https://github.com/phlppgdfry/elevenlabs-webhook-conformance) | 2026-11-25 |
 | [make-enterprise-showcase](https://github.com/phlppgdfry/make-enterprise-showcase) | 2026-11-25 |
 | [finrisk-ai](https://github.com/phlppgdfry/finrisk-ai) | 2026-11-25 |
-| [vessel-eta-tracker](https://github.com/phlppgdfry/vessel-eta-tracker) | 2026-11-25 |
-| [harborvoice-ai](https://github.com/phlppgdfry/harborvoice-ai) | 2026-11-24 |
 
 **Latest releases from the release watchlist**
 
@@ -423,7 +423,7 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 - [PortOps · contracts-v0.2.0](https://github.com/phlppgdfry/portops-ai/releases/tag/contracts-v0.2.0) (preview) — 2026-10-12
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-11-25 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
+<sub>Snapshot: 2026-11-26 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
