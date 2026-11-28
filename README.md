@@ -410,8 +410,8 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 
 | Repository | Latest push (UTC) |
 | :--- | :--- |
+| [github-security-intelligence](https://github.com/phlppgdfry/github-security-intelligence) | 2026-11-28 |
 | [airtable-enterprise-platform](https://github.com/phlppgdfry/airtable-enterprise-platform) | 2026-11-27 |
-| [github-security-intelligence](https://github.com/phlppgdfry/github-security-intelligence) | 2026-11-27 |
 | [docurelay-field](https://github.com/phlppgdfry/docurelay-field) | 2026-11-27 |
 | [Logistics-Master](https://github.com/phlppgdfry/Logistics-Master) | 2026-11-27 |
 | [real-estate-automation-workbench](https://github.com/phlppgdfry/real-estate-automation-workbench) | 2026-11-27 |
@@ -423,7 +423,7 @@ Earlier: ClickTrack v1.0.2 (June), the DocuRelay Android runtime check (July) an
 - [PortOps · contracts-v0.2.0](https://github.com/phlppgdfry/portops-ai/releases/tag/contracts-v0.2.0) (preview) — 2026-10-12
 - [ClickTrack · v1.0.2](https://github.com/phlppgdfry/ClickTrack/releases/tag/v1.0.2) — 2026-06-07
 
-<sub>Snapshot: 2026-11-27 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
+<sub>Snapshot: 2026-11-28 UTC · Public, owned, non-fork repositories; profile repository excluded. Release watchlist: ClickTrack, MirrorMate, DocuRelay, PortOps, Logistics Master, Shipment Tracking and Logistics KPI Utils. Preview marks a GitHub pre-release.</sub>
 <!-- ACTIVITY:END -->
 
 <sub>Generated from public GitHub data. Repository activity reflects code pushes; releases link to their original notes.</sub>
